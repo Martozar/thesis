@@ -1,0 +1,22 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Nvidia Jetson}{chapter.1}% 2
+\BOOKMARK [0][-]{chapter.2}{Related works}{}% 3
+\BOOKMARK [0][-]{chapter.3}{Neural networks}{}% 4
+\BOOKMARK [1][-]{section.3.1}{Architecture}{chapter.3}% 5
+\BOOKMARK [2][-]{subsection.3.1.1}{Convolutional layer}{section.3.1}% 6
+\BOOKMARK [2][-]{subsection.3.1.2}{Non-linearity layer}{section.3.1}% 7
+\BOOKMARK [2][-]{subsection.3.1.3}{Pooling layer}{section.3.1}% 8
+\BOOKMARK [2][-]{subsection.3.1.4}{Fully connected layer}{section.3.1}% 9
+\BOOKMARK [1][-]{section.3.2}{Training of CNN}{chapter.3}% 10
+\BOOKMARK [2][-]{subsection.3.2.1}{Backpropagation}{section.3.2}% 11
+\BOOKMARK [2][-]{subsection.3.2.2}{Overfitting}{section.3.2}% 12
+\BOOKMARK [0][-]{chapter.4}{Used networks}{}% 13
+\BOOKMARK [1][-]{section.4.1}{ResNet}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.2}{RetinaNet}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.3}{YOLO}{chapter.4}% 16
+\BOOKMARK [2][-]{subsection.4.3.1}{YOLO v1}{section.4.3}% 17
+\BOOKMARK [2][-]{subsection.4.3.2}{YOLO v2}{section.4.3}% 18
+\BOOKMARK [2][-]{subsection.4.3.3}{YOLO v3}{section.4.3}% 19
+\BOOKMARK [1][-]{section.4.4}{SqueezeDet}{chapter.4}% 20
+\BOOKMARK [0][-]{chapter.5}{Experiments}{}% 21
+\BOOKMARK [1][-]{section.5.1}{Inference time evaluation}{chapter.5}% 22

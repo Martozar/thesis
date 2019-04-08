@@ -1,0 +1,972 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.19)  20 FEB 2017 14:45
+entering extended mode
+**ctuth-core.tex
+(ctuth-core.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 68 languages loaded.
+! Undefined control sequence.
+l.4 \ProvidesExplFile
+                     {ctuth-core.tex}%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \ProvidesExplFile{c
+                       tuth-core.tex}%
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--7
+[]
+ []
+
+! Undefined control sequence.
+l.15 \cs
+        _generate_variant:Nn \keys_set:nn { nx }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.15 \cs_
+         generate_variant:Nn \keys_set:nn { nx }
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \cs_
+         generate_variant:Nn \keys_set:nn { nx }
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 15.
+! Undefined control sequence.
+l.15 \cs_generate_variant:Nn \keys
+                                  _set:nn { nx }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.16 \cs
+        _generate_variant:Nn \tl_if_eq:nnTF { xn }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.16 \cs_generate_variant:Nn \tl
+                                _if_eq:nnTF { xn }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.17 \cs
+        _generate_variant:Nn \seq_gconcat:NNN { cc }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.17 \cs_generate_variant:Nn \seq
+                                 _gconcat:NNN { cc }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.18 \cs
+        _generate_variant:Nn \str_if_eq:nnTF { xn }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.18 \cs_generate_variant:Nn \str
+                                 _if_eq:nnTF { xn }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (97.03639pt too wide) in paragraph at lines 15--19
+[]$[]\OML/cmm/m/it/10 enerate[]ariant \OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (33.22452pt too wide) in paragraph at lines 15--19
+$\OML/cmm/m/it/10 Nn[]et \OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (100.75871pt too wide) in paragraph at lines 15--19
+$\OML/cmm/m/it/10 nn[][]enerate[]ariant \OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (38.02498pt too wide) in paragraph at lines 15--19
+$\OML/cmm/m/it/10 Nn[]f[]q \OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (115.81082pt too wide) in paragraph at lines 15--19
+$\OML/cmm/m/it/10 nnTF[][]enerate[]ariant \OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (53.73697pt too wide) in paragraph at lines 15--19
+$\OML/cmm/m/it/10 Nn[]concat \OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (113.06642pt too wide) in paragraph at lines 15--19
+$\OML/cmm/m/it/10 NNN[][]enerate[]ariant \OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (38.02498pt too wide) in paragraph at lines 15--19
+$\OML/cmm/m/it/10 Nn[]f[]q \OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (38.77443pt too wide) in paragraph at lines 15--19
+$\OML/cmm/m/it/10 nnTF[]$ 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   _
+l.20 \skip_
+           new:N \g_ctuthesis_tempa_skip
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   _
+l.20 \skip_
+           new:N \g_ctuthesis_tempa_skip
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   _
+l.20 \skip_
+           new:N \g_ctuthesis_tempa_skip
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.20 \skip_
+           new:N \g_ctuthesis_tempa_skip
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \skip_
+           new:N \g_ctuthesis_tempa_skip
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.20 \skip_new:N \g
+                   _ctuthesis_tempa_skip
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.21 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (43.08334pt too wide) in paragraph at lines 20--21
+[]$[]\OML/cmm/m/it/10 ew \OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (93.83917pt too wide) in paragraph at lines 20--21
+$\OML/cmm/m/it/10 N[]tuthesis[]empa[]kip$ 
+ []
+
+! Undefined control sequence.
+l.30 \tl
+        _gset:Nn \g_ctuthesis_alllanguages_tl {{czech}{english}{slovak}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.30 \tl_
+         gset:Nn \g_ctuthesis_alllanguages_tl {{czech}{english}{slovak}}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 \tl_
+         gset:Nn \g_ctuthesis_alllanguages_tl {{czech}{english}{slovak}}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.30 \tl_gset:Nn \g
+                   _ctuthesis_alllanguages_tl {{czech}{english}{slovak}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.31 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (43.16283pt too wide) in paragraph at lines 30--31
+[]$[]\OML/cmm/m/it/10 set \OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (204.1192pt too wide) in paragraph at lines 30--31
+$\OML/cmm/m/it/10 Nn[]tuthesis[]lllanguages[]l[]$ 
+ []
+
+! Undefined control sequence.
+l.33 \msg
+         _new:nnn { ctuthesis } { ctuprocess-twice } { The~macro~ \token_to_...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.33 \msg_
+          new:nnn { ctuthesis } { ctuprocess-twice } { The~macro~ \token_to_...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \msg_
+          new:nnn { ctuthesis } { ctuprocess-twice } { The~macro~ \token_to_...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.33 ...} { ctuprocess-twice } { The~macro~ \token
+                                                  _to_str:N \ctuprocess\ sho...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.33 ...} { The~macro~ \token_to_str:N \ctuprocess
+                                                  \ should~
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.35 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (43.08334pt too wide) in paragraph at lines 33--35
+[]$[]\OML/cmm/m/it/10 ew \OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (375.73079pt too wide) in paragraph at lines 33--35
+$\OML/cmm/m/it/10 nnn[][][]$ 
+ []
+
+! Undefined control sequence.
+l.37 \msg
+         _new:nnn { ctuthesis } { ctuprocess-none } { It~is~necessary~to~use...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.37 \msg_
+          new:nnn { ctuthesis } { ctuprocess-none } { It~is~necessary~to~use...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \msg_
+          new:nnn { ctuthesis } { ctuprocess-none } { It~is~necessary~to~use...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.38 	macro~ \token
+                   _to_str:N \ctuprocess\ once~in~the~preamble. }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.38 	macro~ \token_to_str:N \ctuprocess
+                                        \ once~in~the~preamble. }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.39 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (43.08334pt too wide) in paragraph at lines 37--39
+[]$[]\OML/cmm/m/it/10 ew \OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (391.06415pt too wide) in paragraph at lines 37--39
+$\OML/cmm/m/it/10 nnn[][][]$ 
+ []
+
+! Undefined control sequence.
+l.51 \seq
+         _new:N \g_ctuthesis_keys_nop_seq
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.51 \seq_
+          new:N \g_ctuthesis_keys_nop_seq
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 \seq_
+          new:N \g_ctuthesis_keys_nop_seq
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.51 \seq_new:N \g
+                  _ctuthesis_keys_nop_seq
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.52 \seq
+         _new:N \g_ctuthesis_keys_nopost_seq
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.52 \seq_new:N \g
+                  _ctuthesis_keys_nopost_seq
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.54 \cs
+        _new_protected:Nn \ctuthesis_keys_add_no:nn {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.54 \cs_new_protected:Nn \ctuthesis
+                                    _keys_add_no:nn {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.55 	\group
+            _begin:
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.56 	\seq
+          _set_from_clist:Nn \l_temp_ctuthesis_a_seq { #2 }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 56.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 56.
+
+! Double subscript.
+l.56 	\seq_set_from_clist:Nn \l_temp_ctuthesis_a_
+                                                 seq { #2 }
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! You can't use `macro parameter character #' in math mode.
+l.56 ..._from_clist:Nn \l_temp_ctuthesis_a_seq { #
+                                                  2 }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+l.57 	\seq
+          _gconcat:ccN { g_ctuthesis_keys_#1_seq } { g_ctuthesis_keys_#1_seq...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing { inserted.
+<to be read again> 
+                   ##
+l.57 	\seq_gconcat:ccN { g_ctuthesis_keys_#
+                                           1_seq } { g_ctuthesis_keys_#1_seq...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! You can't use `macro parameter character #' in math mode.
+<recently read> ##
+                  
+l.57 	\seq_gconcat:ccN { g_ctuthesis_keys_#
+                                           1_seq } { g_ctuthesis_keys_#1_seq...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing { inserted.
+<to be read again> 
+                   ##
+l.57 ...uthesis_keys_#1_seq } { g_ctuthesis_keys_#
+                                                  1_seq } \l_temp_ctuthesis_...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! You can't use `macro parameter character #' in math mode.
+<recently read> ##
+                  
+l.57 ...uthesis_keys_#1_seq } { g_ctuthesis_keys_#
+                                                  1_seq } \l_temp_ctuthesis_...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 57.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 57.
+
+! Double subscript.
+l.57 ...uthesis_keys_#1_seq } \l_temp_ctuthesis_a_
+                                                  seq
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Undefined control sequence.
+l.58 	\group
+            _end:
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.60 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.60 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.60 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (43.08334pt too wide) in paragraph at lines 51--60
+[]$[]\OML/cmm/m/it/10 ew \OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (119.61864pt too wide) in paragraph at lines 51--60
+$\OML/cmm/m/it/10 N[]tuthesis[]eys[]op[]eq[]ew \OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (172.82152pt too wide) in paragraph at lines 51--60
+$\OML/cmm/m/it/10 N[]tuthesis[]eys[]opost[]eq[]ew[]rotected \OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (65.74628pt too wide) in paragraph at lines 51--60
+$\OML/cmm/m/it/10 Nn[]eys[]dd[]o \OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (535.8994pt too wide) in paragraph at lines 51--60
+$\OML/cmm/m/it/10 nn[]$ 
+ []
+
+! Undefined control sequence.
+l.62 \msg
+         _new:nnn { ctuthesis } { keys-unknown } { The~key~'#1'~is~not~known...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.62 \msg_
+          new:nnn { ctuthesis } { keys-unknown } { The~key~'#1'~is~not~known...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \msg_
+          new:nnn { ctuthesis } { keys-unknown } { The~key~'#1'~is~not~known...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! You can't use `macro parameter character #' in math mode.
+<recently read> ##
+                  
+l.62 ... ctuthesis } { keys-unknown } { The~key~'#
+                                                  1'~is~not~known~to~the~
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.64 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (43.08334pt too wide) in paragraph at lines 62--64
+[]$[]\OML/cmm/m/it/10 ew \OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (398.79716pt too wide) in paragraph at lines 62--64
+$\OML/cmm/m/it/10 nnn[][][]$ 
+ []
+
+! Undefined control sequence.
+l.65 \msg
+         _new:nnn { ctuthesis } { keys-nopost } { The~key~'#1'~is~forbidden~...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.65 \msg_
+          new:nnn { ctuthesis } { keys-nopost } { The~key~'#1'~is~forbidden~...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 \msg_
+          new:nnn { ctuthesis } { keys-nopost } { The~key~'#1'~is~forbidden~...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! You can't use `macro parameter character #' in math mode.
+<recently read> ##
+                  
+l.65 ...{ ctuthesis } { keys-nopost } { The~key~'#
+                                                  1'~is~forbidden~after~
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+l.66 	\token
+            _to_str:N \ctuprocess \space and~will~be~ignored.~You~may~wish~to~
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.66 	\token_to_str:N \ctuprocess
+                                  \space and~will~be~ignored.~You~may~wish~to~
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.68 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (43.08334pt too wide) in paragraph at lines 65--68
+[]$[]\OML/cmm/m/it/10 ew \OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (488.95012pt too wide) in paragraph at lines 65--68
+$\OML/cmm/m/it/10 nnn[][][]$ 
+ []
+
+! Undefined control sequence.
+l.69 \msg
+         _new:nnn { ctuthesis } { keys-nop } { The~key~'#1'~is~forbidden~in~
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69 \msg_
+          new:nnn { ctuthesis } { keys-nop } { The~key~'#1'~is~forbidden~in~
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 \msg_
+          new:nnn { ctuthesis } { keys-nop } { The~key~'#1'~is~forbidden~in~
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! You can't use `macro parameter character #' in math mode.
+<recently read> ##
+                  
+l.69 ...nn { ctuthesis } { keys-nop } { The~key~'#
+                                                  1'~is~forbidden~in~
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+l.70 	\token
+            _to_str:N \ctusetup \space and~will~be~ignored.~Use~the~optional...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.70 	\token_to_str:N \ctusetup
+                                \space and~will~be~ignored.~Use~the~optional...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.71 	of~ \token
+                _to_str:N \documentclass \space to~set~it~up. }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: File ` .cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.71 	of~ \token_to_str:N \documentclass \space t
+                                                 o~set~it~up. }
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 14 strings out of 493698
+ 168 string characters out of 3144377
+ 56149 words of memory out of 3000000
+ 3439 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 18i,6n,12p,129b,56s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
