@@ -494,8 +494,8 @@ The building brick of SqueezeNet is called fire module \ref{fire_squeezenet}. Ea
 As soon as ResNet is just a classification network without bounding boxes proposal, we decided to evaluate performance of networks for both detection and classification, hence, RetinaNet, YOLOv3.
 \section{Inference time evaluation}
 
-For computing on the edge, we should ensure as small as possible time delay between input data, in this case stream frame, are received and output data are provided to a user. 
-One of the biggest constraints on machine learning algorithm for real time object detection is inference time.  Inference time on Jetson AGX Xavier was compared with other 2 different machines, their CPU and GPU specifications mentioned in tables \ref{malaria-tech-spec} and \ref{my-tech-spec}. Videos for evaluation were taken from video databases with free access, like YouTube or Pexels. All videos have different camera view with various object count, video resolution and FPS, which can affect neural network detector performance. Video samples are presented on \ref{fig:samples}, where obvious difference between videos can be noticed.  As it is shown in tables \ref{yolo-evaluation} and \ref{retina-eval}, PC1 performs best for both YOLO and RetinaNet, while PC2 has the worst performance. Jetson AVX Xavier has 2.5 times worse performance with YOLO and 4 times worse with RetinaNet comparing to PC1. The difference in performance of YOLO and RetinaNet on Jetson AVX Xavier is caused by frameworks used for computation. Darknet used with YOLO is optimized for utilizing of Tensor Cores in Jetson, while TensorFlow is not able to use Tensor Cores for faster matrix calculation. This problem can be solved by accelerating inference in TensorFlow with TensorRT. Unfortunately, in case of RetinaNet there are layers like $Exit$, $Switch$, $LoopCond$, $LogicalAnd$, $Enter$ etc. in graph that are not fully supported in TensorRT, which means TensorRT optimizes only known layers and the resulting network does not gain any speed improvement. The possible solution for this problem could be writing custom layer converter for a network graph.
+For computing on the edge, we should ensure as small as possible time delay between receiving input data, in this case stream frame,  and providing output data to a user. Time of object detection and classification can be the biggest bottleneck in such systems, therefore it is necessary to choose such architecture that provides the best result with the least possible inference time. We compared necessary time to process one image frame on Jetson AGX Xavier with other 2 different machines, their CPU and GPU specifications are mentioned in tables \ref{malaria-tech-spec} and \ref{my-tech-spec}. Videos for this evaluation were taken from video databases with free access, like YouTube or Pexels. All videos have different camera view with various object count, video resolution and FPS, which can affect neural network detector performance. Video samples are presented on \ref{fig:samples}, where obvious difference between videos can be noticed.  As it is shown in tables \ref{yolo-evaluation} and \ref{retina-eval}, PC1 performs best for both YOLO and RetinaNet, while PC2 has the worst performance. Jetson AVX Xavier has 2.5 times worse performance with YOLO and 4 times worse with RetinaNet comparing to PC1. The difference in performance of YOLO and RetinaNet on Jetson AVX Xavier is caused by frameworks used for computation. Darknet used with YOLO is optimized for utilizing of Tensor Cores in Jetson, while TensorFlow is not able to use Tensor Cores for faster matrix calculation. This problem can be solved by accelerating inference in TensorFlow with TensorRT. Unfortunately, in case of RetinaNet there are layers like $Exit$, $Switch$, $LoopCond$, $LogicalAnd$, $Enter$ etc. in graph that are not fully supported in TensorRT, which means TensorRT optimizes only known layers and the resulting network does not gain any speed improvement. The possible solution for this problem could be writing custom layer converter for a network graph.
+
 
 \begin{table}[htb]
 	\centering
@@ -522,7 +522,64 @@ One of the biggest constraints on machine learning algorithm for real time objec
 	\caption{PC2 technical specification}
 	\label{my-tech-spec}
 \end{table}
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[]
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|}
+\hline
+\cellcolor[HTML]{C0C0C0}                                                              & \cellcolor[HTML]{C0C0C0}{\color[HTML]{333333} }                               & \cellcolor[HTML]{C0C0C0}                                            \\
+\cellcolor[HTML]{C0C0C0}                                                              & \cellcolor[HTML]{C0C0C0}{\color[HTML]{333333} }                               & \cellcolor[HTML]{C0C0C0}                                            \\
+\multirow{-3}{*}{\cellcolor[HTML]{C0C0C0}\textbf{Video file}}                         & \multirow{-3}{*}{\cellcolor[HTML]{C0C0C0}{\color[HTML]{333333} \textbf{FPS}}} & \multirow{-3}{*}{\cellcolor[HTML]{C0C0C0}\textbf{Video Resolution}} \\ \hline
+5.4 4K Camera Road in Thailand.mp4                                                    & 30                                                                            & 1280x720                                                            \\ \hline
+Cars Driving On Street.mp4                                                            & 30                                                                            & 1920x1080                                                           \\ \hline
+Cars On Highway.mp4                                                                   & 25                                                                            & 1920x1080                                                           \\ \hline
+Cars On The Road.mp4                                                                  & 50                                                                            & 1280x720                                                            \\ \hline
+City Traffic.mp4                                                                      & 30                                                                            & 1920x1088                                                           \\ \hline
+Day Traffic Sample Video Dataset.mp4                                                  & 30                                                                            & 432x240                                                             \\ \hline
+Pedestrian and Traffic, Human Activity Recognition Video ,DataSet By UET Peshawar.mp4 & 30                                                                            & 1280x720                                                            \\ \hline
+Pexels Videos 1601538.mp4                                                             & 25                                                                            & 1920x1080                                                           \\ \hline
+Pexels Videos 2577.mp4                                                                & 30                                                                            & 1920x1088                                                           \\ \hline
+Pexels Videos 2670.mp4                                                                & 25                                                                            & 1920x1088                                                           \\ \hline
+Pexels Videos 3047.mp4                                                                & 30                                                                            & 1920x1088                                                           \\ \hline
+Pexels Videos 948404.mp4                                                              & 24                                                                            & 3840x2178                                                           \\ \hline
+moderate\_traffic.mp4                                                                 & 30                                                                            & 1280x720                                                            \\ \hline
+\end{tabular}
+}
+\caption{Characteristics of video for inference time evaluation}
+	\label{video_characteristics}
+\end{table}
 
+% Please add the following required packages to your document preamble:												
+% \usepackage{multirow}												
+% \usepackage[table,xcdraw]{xcolor}												
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}												
+\begin{table}[]		
+
+ \catcode`\-=12										
+\begin{tabular}{|c|c|c|}												
+\hline												
+\cellcolor[HTML]{C0C0C0}{\color[HTML]{333333} }                                 & \cellcolor[HTML]{C0C0C0}{\color[HTML]{333333} }                                   & \cellcolor[HTML]{C0C0C0}{\color[HTML]{333333} }                                                   \\												
+\cellcolor[HTML]{C0C0C0}{\color[HTML]{333333} }                                 & \cellcolor[HTML]{C0C0C0}{\color[HTML]{333333} }                                   & \cellcolor[HTML]{C0C0C0}{\color[HTML]{333333} }                                                   \\												
+\multirow{-3}{*}{\cellcolor[HTML]{C0C0C0}{\color[HTML]{333333} \textbf{Model}}} & \multirow{-3}{*}{\cellcolor[HTML]{C0C0C0}{\color[HTML]{333333} \textbf{Machine}}} & \multirow{-3}{*}{\cellcolor[HTML]{C0C0C0}{\color[HTML]{333333} \textbf{Inference time {[}ms{]}}}} \\ \hline												
+& Jetson Xavier                                                                     & 123                                                                                               \\ \cline{2-3}												
+& PC1                                                                               & 35                                                                                                \\ \cline{2-3}												
+\multirow{-3}{*}{YOLOv3 416x416}                                                & PC2                                                                               & 175                                                                                               \\ \hline												
+& Jetson Xavier                                                                     & 139                                                                                               \\ \cline{2-3}												
+& PC1                                                                               & 39                                                                                                \\ \cline{2-3}												
+\multirow{-3}{*}{YOLOv3 608x608}                                                & PC2                                                                               & 208                                                                                               \\ \hline												
+& Jetson Xavier                                                                     & 200                                                                                               \\ \cline{2-3}												
+& PC1                                                                               & 52                                                                                                \\ \cline{2-3}												
+\multirow{-3}{*}{RetinaNet}                                                     & PC2                                                                               & 228                                                                                               \\ \hline												
+& Jetson Xavier                                                                     & 25                                                                                                \\ \cline{2-3}												
+& PC1                                                                               & 8                                                                                                 \\ \cline{2-3}												
+\multirow{-3}{*}{squeezeDet}                                                    & PC2                                                                               & 24                                                                                                \\ \hline												
+\end{tabular}	
+\caption{Inference time evaluation}
+\label{inference_time}										
+\end{table}												
 
 
 \begin{figure}[]
@@ -603,112 +660,6 @@ One of the biggest constraints on machine learning algorithm for real time objec
 	\caption{Samples of used videos}
 		\label{fig:samples}
 \end{figure}
-	
-% Please add the following required packages to your document preamble:
-% \usepackage{multirow}
-\begin{table}[]
- \catcode`\-=12
-	\centering
-	\resizebox{\textwidth}{!}{%
-		\begin{tabular}{|c|c|c|c|c|}
-			\hline
-			Video Name                                                                                                                                        & FPS                 & Resolution                 & Used machine      & Detector FPS \\ \hline
-			\multirow{3}{*}{5.4 4K Camera Road in Thailand.mp4}                                                                                               & \multirow{3}{*}{30} & \multirow{3}{*}{1280x720}  & Jetson AVX Xavier & 7.9         \\ \cline{4-5} 
-			&                     &                            & PC1               & 29,4         \\ \cline{4-5} 
-			&                     &                            & PC2               & 5,6          \\ \hline
-			\multirow{3}{*}{Cars Driving On Street.mp4}                                                                                                       & \multirow{3}{*}{30} & \multirow{3}{*}{1920x1080} & Jetson AVX Xavier & 7.9         \\ \cline{4-5} 
-			&                     &                            & PC1               & 28,6         \\ \cline{4-5} 
-			&                     &                            & PC2               & 5,7          \\ \hline
-			\multirow{3}{*}{Cars On Highway.mp4}                                                                                                              & \multirow{3}{*}{25} & \multirow{3}{*}{1920x1080} & Jetson AVX Xavier & 8.4         \\ \cline{4-5} 
-			&                     &                            & PC1               & 28,8         \\ \cline{4-5} 
-			&                     &                            & PC2               & 5,7          \\ \hline
-			\multirow{3}{*}{Cars On The Road.mp4}                                                                                                             & \multirow{3}{*}{50} & \multirow{3}{*}{1280x720}  & Jetson AVX Xavier & 8.3         \\ \cline{4-5} 
-			&                     &                            & PC1               & 29,0         \\ \cline{4-5} 
-			&                     &                            & PC2               & 5,6          \\ \hline
-			\multirow{3}{*}{City Traffic.mp4}                                                                                                                 & \multirow{3}{*}{30} & \multirow{3}{*}{1920x1088} & Jetson AVX Xavier & 8.2         \\ \cline{4-5} 
-			&                     &                            & PC1               & 28,8         \\ \cline{4-5} 
-			&                     &                            & PC2               & 5,8          \\ \hline
-			\multirow{3}{*}{Day Traffic Sample Video Dataset.mp4}                                                                                             & \multirow{3}{*}{30} & \multirow{3}{*}{432x240}   & Jetson AVX Xavier & 8.2         \\ \cline{4-5} 
-			&                     &                            & PC1               & 29,4         \\ \cline{4-5} 
-			&                     &                            & PC2               & 5,8          \\ \hline
-			\multirow{3}{*}{\begin{tabular}[c]{@{}c@{}}Pedestrian and Traffic, Human Activity Recognition \\ Video, DataSet By UET Peshawar.mp4\end{tabular}} & \multirow{3}{*}{30} & \multirow{3}{*}{1280x720}  & Jetson AVX Xavier & 8.1         \\ \cline{4-5} 
-			&                     &                            & PC1               & 28,1         \\ \cline{4-5} 
-			&                     &                            & PC2               & 5,8          \\ \hline
-			\multirow{3}{*}{Pexels Videos 1601538.mp4}                                                                                                        & \multirow{3}{*}{25} & \multirow{3}{*}{1920x1080} & Jetson AVX Xavier & 8.2         \\ \cline{4-5} 
-			&                     &                            & PC1               & 28,7         \\ \cline{4-5} 
-			&                     &                            & PC2               & 5,4          \\ \hline
-			\multirow{3}{*}{Pexels Videos 2577.mp4}                                                                                                           & \multirow{3}{*}{30} & \multirow{3}{*}{1920x1088} & Jetson AVX Xavier & 8.3         \\ \cline{4-5} 
-			&                     &                            & PC1               & 29,0         \\ \cline{4-5} 
-			&                     &                            & PC2               & 5,8          \\ \hline
-			\multirow{3}{*}{Pexels Videos 2670.mp4}                                                                                                           & \multirow{3}{*}{25} & \multirow{3}{*}{1920x1088} & Jetson AVX Xavier & 8.0         \\ \cline{4-5} 
-			&                     &                            & PC1               & 29,4         \\ \cline{4-5} 
-			&                     &                            & PC2               & 5,8          \\ \hline
-			\multirow{3}{*}{Pexels Videos 3047.mp4}                                                                                                           & \multirow{3}{*}{30} & \multirow{3}{*}{1920x1088} & Jetson AVX Xavier & 8.2         \\ \cline{4-5} 
-			&                     &                            & PC1               & 29,4         \\ \cline{4-5} 
-			&                     &                            & PC2               & 5,7          \\ \hline
-			\multirow{3}{*}{Pexels Videos 948404.mp4}                                                                                                         & \multirow{3}{*}{24} & \multirow{3}{*}{3840x2178} & Jetson AVX Xavier & 8.1         \\ \cline{4-5} 
-			&                     &                            & PC1               & 27,8         \\ \cline{4-5} 
-			&                     &                            & PC2               & 5,7          \\ \hline
-			\multirow{3}{*}{moderate\_traffic.mp4}                                                                                                            & \multirow{3}{*}{30} & \multirow{3}{*}{1280x720}  & Jetson AVX Xavier & 7.9         \\ \cline{4-5} 
-			&                     &                            & PC1               & 28,6         \\ \cline{4-5} 
-			&                     &                            & PC2               & 5,6          \\ \hline
-		\end{tabular}%
-	}
-	\caption{YOLO evaluation}
-	\label{yolo-evaluation}
-\end{table}
-
-\begin{table}[H]
- \catcode`\-=12
-	\centering
-	\resizebox{\textwidth}{!}{%
-		\begin{tabular}{|c|c|c|c|c|}
-			\hline
-			Video Name                                                                                                                                        & FPS                 & Resolution                 & Used machine      & Detector FPS \\ \hline
-			\multirow{3}{*}{5.4 4K Camera Road in Thailand.mp4}                                                                                               & \multirow{3}{*}{30} & \multirow{3}{*}{1280x720}  & Jetson AVX Xavier & 4,3          \\ \cline{4-5} 
-			&                     &                            & PC1               & 17,5         \\ \cline{4-5} 
-			&                     &                            & PC2               & 3,8          \\ \hline
-			\multirow{3}{*}{Cars Driving On Street.mp4}                                                                                                       & \multirow{3}{*}{30} & \multirow{3}{*}{1920x1080} & Jetson AVX Xavier & 4,5          \\ \cline{4-5} 
-			&                     &                            & PC1               & 17,2         \\ \cline{4-5} 
-			&                     &                            & PC2               & 3,9          \\ \hline
-			\multirow{3}{*}{Cars On Highway.mp4}                                                                                                              & \multirow{3}{*}{25} & \multirow{3}{*}{1920x1080} & Jetson AVX Xavier & 4,5          \\ \cline{4-5} 
-			&                     &                            & PC1               & 14,7         \\ \cline{4-5} 
-			&                     &                            & PC2               & 3,9          \\ \hline
-			\multirow{3}{*}{Cars On The Road.mp4}                                                                                                             & \multirow{3}{*}{50} & \multirow{3}{*}{1280x720}  & Jetson AVX Xavier & 4,5          \\ \cline{4-5} 
-			&                     &                            & PC1               & 16,4         \\ \cline{4-5} 
-			&                     &                            & PC2               & 3,7          \\ \hline
-			\multirow{3}{*}{City Traffic.mp4}                                                                                                                 & \multirow{3}{*}{30} & \multirow{3}{*}{1920x1088} & Jetson AVX Xavier & 4,4          \\ \cline{4-5} 
-			&                     &                            & PC1               & 17,5         \\ \cline{4-5} 
-			&                     &                            & PC2               & 3,5          \\ \hline
-			\multirow{3}{*}{Day Traffic Sample Video Dataset.mp4}                                                                                             & \multirow{3}{*}{30} & \multirow{3}{*}{432x240}   & Jetson AVX Xavier & 12,5         \\ \cline{4-5} 
-			&                     &                            & PC1               & 41,7         \\ \cline{4-5} 
-			&                     &                            & PC2               & 12,2         \\ \hline
-			\multirow{3}{*}{\begin{tabular}[c]{@{}c@{}}Pedestrian and Traffic, Human Activity Recognition \\ Video, DataSet By UET Peshawar.mp4\end{tabular}} & \multirow{3}{*}{30} & \multirow{3}{*}{1280x720}  & Jetson AVX Xavier & 4,5          \\ \cline{4-5} 
-			&                     &                            & PC1               & 17,2         \\ \cline{4-5} 
-			&                     &                            & PC2               & 3,6          \\ \hline
-			\multirow{3}{*}{Pexels Videos 1601538.mp4}                                                                                                        & \multirow{3}{*}{25} & \multirow{3}{*}{1920x1080} & Jetson AVX Xavier & 4,5          \\ \cline{4-5} 
-			&                     &                            & PC1               & 16,7         \\ \cline{4-5} 
-			&                     &                            & PC2               & 3,7          \\ \hline
-			\multirow{3}{*}{Pexels Videos 2577.mp4}                                                                                                           & \multirow{3}{*}{30} & \multirow{3}{*}{1920x1088} & Jetson AVX Xavier & 3,8          \\ \cline{4-5} 
-			&                     &                            & PC1               & 18,5         \\ \cline{4-5} 
-			&                     &                            & PC2               & 3,7          \\ \hline
-			\multirow{3}{*}{Pexels Videos 2670.mp4}                                                                                                           & \multirow{3}{*}{25} & \multirow{3}{*}{1920x1088} & Jetson AVX Xavier & 4,0          \\ \cline{4-5} 
-			&                     &                            & PC1               & 18,5         \\ \cline{4-5} 
-			&                     &                            & PC2               & 3,8          \\ \hline
-			\multirow{3}{*}{Pexels Videos 3047.mp4}                                                                                                           & \multirow{3}{*}{30} & \multirow{3}{*}{1920x1088} & Jetson AVX Xavier & 4,3          \\ \cline{4-5} 
-			&                     &                            & PC1               & 17,2         \\ \cline{4-5} 
-			&                     &                            & PC2               & 3,7          \\ \hline
-			\multirow{3}{*}{Pexels Videos 948404.mp4}                                                                                                         & \multirow{3}{*}{24} & \multirow{3}{*}{3840x2178} & Jetson AVX Xavier & 4,2          \\ \cline{4-5} 
-			&                     &                            & PC1               & 17,2         \\ \cline{4-5} 
-			&                     &                            & PC2               & 3,7          \\ \hline
-			\multirow{3}{*}{moderate\_traffic.mp4}                                                                                                            & \multirow{3}{*}{30} & \multirow{3}{*}{1280x720}  & Jetson AVX Xavier & 4,6          \\ \cline{4-5} 
-			&                     &                            & PC1               & 17,5         \\ \cline{4-5} 
-			&                     &                            & PC2               & 3,8          \\ \hline
-		\end{tabular}%
-	}
-	\caption{Keras RetinaNET evaluation}
-	\label{retina-eval}
-\end{table}
 	
 	
 \appendix

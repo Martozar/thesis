@@ -40,17 +40,17 @@
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Fire module in SqueezeNet\relax }}{19}{figure.4.9}
 \contentsline {figure}{\numberline {4.10}{\ignorespaces SqueezeDet comparison with other state-of-art solutions\relax }}{19}{figure.4.10}
 \addvspace {10\p@ }
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {5.4 4K Camera Road in Thailand.mp4}}}{24}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Cars Driving On Street.mp4}}}{24}{subfigure.1.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Cars On Highway.mp4}}}{24}{subfigure.1.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Cars On The Road.mp4}}}{24}{subfigure.1.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {City Traffic.mp4}}}{24}{subfigure.1.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Day Traffic Sample Video Dataset.mp4}}}{24}{subfigure.1.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Pedestrian and Traffic, Human Activity Recognition Video ,DataSet By UET Peshawar.mp4}}}{24}{subfigure.1.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {Pexels Videos 1601538.mp4}}}{24}{subfigure.1.8}
-\contentsline {figure}{\numberline {5.0}{\ignorespaces Samples of used videos\relax }}{25}{figure.5.0a}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {Pexels Videos 2577.mp4}}}{25}{subfigure.0.9}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {Pexels Videos 2670.mp4}}}{25}{subfigure.0.10}
-\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {Pexels Videos 3047.mp4}}}{25}{subfigure.0.11}
-\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {Pexels Videos 948404.mp4}}}{25}{subfigure.0.12}
-\contentsline {subfigure}{\numberline {(m)}{\ignorespaces {moderate\_traffic.mp4}}}{25}{subfigure.0.13}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {5.4 4K Camera Road in Thailand.mp4}}}{23}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Cars Driving On Street.mp4}}}{23}{subfigure.1.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Cars On Highway.mp4}}}{23}{subfigure.1.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Cars On The Road.mp4}}}{23}{subfigure.1.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {City Traffic.mp4}}}{23}{subfigure.1.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Day Traffic Sample Video Dataset.mp4}}}{23}{subfigure.1.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Pedestrian and Traffic, Human Activity Recognition Video ,DataSet By UET Peshawar.mp4}}}{23}{subfigure.1.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {Pexels Videos 1601538.mp4}}}{23}{subfigure.1.8}
+\contentsline {figure}{\numberline {5.0}{\ignorespaces Samples of used videos\relax }}{24}{figure.5.0a}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {Pexels Videos 2577.mp4}}}{24}{subfigure.0.9}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {Pexels Videos 2670.mp4}}}{24}{subfigure.0.10}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {Pexels Videos 3047.mp4}}}{24}{subfigure.0.11}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {Pexels Videos 948404.mp4}}}{24}{subfigure.0.12}
+\contentsline {subfigure}{\numberline {(m)}{\ignorespaces {moderate\_traffic.mp4}}}{24}{subfigure.0.13}
