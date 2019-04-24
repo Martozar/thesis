@@ -29,15 +29,25 @@
 \contentsline {subsection}{\numberline {3.1.3}Pooling layer}{7}{subsection.3.1.3}
 \contentsline {subsection}{\numberline {3.1.4}Fully connected layer}{7}{subsection.3.1.4}
 \contentsline {section}{\numberline {3.2}Training of CNN}{7}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Backpropagation}{7}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Overfitting}{9}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.1}Backpropagation}{8}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Dropout}{9}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Batch normalization}{9}{subsection.3.2.3}
 \contentsline {chapter}{\numberline {4}Used networks}{11}{chapter.4}
 \contentsline {section}{\numberline {4.1}ResNet}{11}{section.4.1}
 \contentsline {section}{\numberline {4.2}RetinaNet}{12}{section.4.2}
-\contentsline {section}{\numberline {4.3}YOLO}{12}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}YOLO v1}{12}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}YOLO v2}{13}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}YOLO v3}{14}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}SqueezeDet}{14}{section.4.4}
-\contentsline {chapter}{\numberline {5}Experiments}{21}{chapter.5}
-\contentsline {section}{\numberline {5.1}Inference time evaluation}{21}{section.5.1}
+\contentsline {section}{\numberline {4.3}SqueezeDet}{12}{section.4.3}
+\contentsline {section}{\numberline {4.4}YOLO}{13}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}YOLO v1}{13}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}YOLO v2}{14}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}YOLO v3}{14}{subsection.4.4.3}
+\contentsline {chapter}{\numberline {5}Experiments}{19}{chapter.5}
+\contentsline {section}{\numberline {5.1}Datasets}{19}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}KITTI dataset}{19}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}GoodVision dataset}{19}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Performance evaluation}{20}{section.5.2}
+\contentsline {section}{\numberline {5.3}Inference time evaluation}{21}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Mixed precision calculation}{22}{subsection.5.3.1}
+\contentsline {chapter}{\numberline {A}Darknet-19}{27}{appendix.A}
+\contentsline {chapter}{\numberline {B}Darknet-53}{29}{appendix.B}
+\contentsline {chapter}{\numberline {C}Sample from videos used for evaluation}{31}{appendix.C}
+\contentsline {chapter}{\numberline {D}Bibliography}{33}{appendix.D}

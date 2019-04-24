@@ -9,14 +9,24 @@
 \BOOKMARK [2][-]{subsection.3.1.4}{Fully connected layer}{section.3.1}% 9
 \BOOKMARK [1][-]{section.3.2}{Training of CNN}{chapter.3}% 10
 \BOOKMARK [2][-]{subsection.3.2.1}{Backpropagation}{section.3.2}% 11
-\BOOKMARK [2][-]{subsection.3.2.2}{Overfitting}{section.3.2}% 12
-\BOOKMARK [0][-]{chapter.4}{Used networks}{}% 13
-\BOOKMARK [1][-]{section.4.1}{ResNet}{chapter.4}% 14
-\BOOKMARK [1][-]{section.4.2}{RetinaNet}{chapter.4}% 15
-\BOOKMARK [1][-]{section.4.3}{YOLO}{chapter.4}% 16
-\BOOKMARK [2][-]{subsection.4.3.1}{YOLO v1}{section.4.3}% 17
-\BOOKMARK [2][-]{subsection.4.3.2}{YOLO v2}{section.4.3}% 18
-\BOOKMARK [2][-]{subsection.4.3.3}{YOLO v3}{section.4.3}% 19
-\BOOKMARK [1][-]{section.4.4}{SqueezeDet}{chapter.4}% 20
-\BOOKMARK [0][-]{chapter.5}{Experiments}{}% 21
-\BOOKMARK [1][-]{section.5.1}{Inference time evaluation}{chapter.5}% 22
+\BOOKMARK [2][-]{subsection.3.2.2}{Dropout}{section.3.2}% 12
+\BOOKMARK [2][-]{subsection.3.2.3}{Batch normalization}{section.3.2}% 13
+\BOOKMARK [0][-]{chapter.4}{Used networks}{}% 14
+\BOOKMARK [1][-]{section.4.1}{ResNet}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.2}{RetinaNet}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.3}{SqueezeDet}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.4}{YOLO}{chapter.4}% 18
+\BOOKMARK [2][-]{subsection.4.4.1}{YOLO v1}{section.4.4}% 19
+\BOOKMARK [2][-]{subsection.4.4.2}{YOLO v2}{section.4.4}% 20
+\BOOKMARK [2][-]{subsection.4.4.3}{YOLO v3}{section.4.4}% 21
+\BOOKMARK [0][-]{chapter.5}{Experiments}{}% 22
+\BOOKMARK [1][-]{section.5.1}{Datasets}{chapter.5}% 23
+\BOOKMARK [2][-]{subsection.5.1.1}{KITTI dataset}{section.5.1}% 24
+\BOOKMARK [2][-]{subsection.5.1.2}{GoodVision dataset}{section.5.1}% 25
+\BOOKMARK [1][-]{section.5.2}{Performance evaluation}{chapter.5}% 26
+\BOOKMARK [1][-]{section.5.3}{Inference time evaluation}{chapter.5}% 27
+\BOOKMARK [2][-]{subsection.5.3.1}{Mixed precision calculation}{section.5.3}% 28
+\BOOKMARK [0][-]{appendix.A}{Darknet-19}{}% 29
+\BOOKMARK [0][-]{appendix.B}{Darknet-53}{}% 30
+\BOOKMARK [0][-]{appendix.C}{Sample from videos used for evaluation}{}% 31
+\BOOKMARK [0][-]{appendix.D}{Bibliography}{}% 32

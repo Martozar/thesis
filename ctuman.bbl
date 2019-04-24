@@ -1,0 +1,54 @@
+\begin{thebibliography}{1}
+
+\bibitem{staff_2018}
+Science~X staff.
+\newblock Why are neuron axons long and spindly? study shows they're optimizing
+  signaling efficiency.
+\newblock
+  \url{https://medicalxpress.com/news/2018-07-neuron-axons-spindly-theyre-optimizing.html},
+  Jul 2018.
+
+\bibitem{britz_2016}
+Denny Britz.
+\newblock Understanding convolutional neural networks for {NLP}, Jan 2016.
+
+\bibitem{cs231n}
+Cs231n convolutional neural networks for visual recognition.
+\newblock \url{http://cs231n.github.io/convolutional-networks}.
+
+\bibitem{rumelhart_hinton_williams_1986}
+David~E. Rumelhart, Geoffrey~E. Hinton, and Ronald~J. Williams.
+\newblock Learning representations by back-propagating errors.
+\newblock {\em Nature}, 323(6088):533–536, 1986.
+
+\bibitem{he_zhang_ren_sun_2016}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Deep residual learning for image recognition.
+\newblock {\em 2016 IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)}, 2016.
+
+\bibitem{lin_dollar_girshick_he_hariharan_belongie_2017}
+Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He, Bharath Hariharan, and
+  Serge Belongie.
+\newblock Feature pyramid networks for object detection.
+\newblock {\em 2017 IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)}, 2017.
+
+\bibitem{redmon_divvala_girshick_farhadi_2016}
+Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi.
+\newblock You only look once: Unified, real-time object detection.
+\newblock {\em 2016 IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)}, 2016.
+
+\bibitem{redmon_farhadi_2017}
+Joseph Redmon and Ali Farhadi.
+\newblock Yolo9000: Better, faster, stronger.
+\newblock {\em 2017 IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)}, 2017.
+
+\bibitem{Redmon2018YOLOv3AI}
+Joseph Redmon and Ali Farhadi.
+\newblock Yolov3: An incremental improvement.
+\newblock {\em CoRR}, abs/1804.02767, 2018.
+
+\end{thebibliography}

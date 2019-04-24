@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ctuman.aux
+The style file: unsrt.bst
+Database file #1: ctutest.bib
+Warning--I didn't find a database entry for "lin_goyal_girshick_he_dollar_2017"
+You've used 9 entries,
+            1791 wiz_defined-function locations,
+            490 strings with 4974 characters,
+and the built_in function-call counts, 1472 in all, are:
+= -- 110
+> -- 84
+< -- 0
++ -- 32
+- -- 23
+* -- 76
+:= -- 256
+add.period$ -- 25
+call.type$ -- 9
+change.case$ -- 9
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 64
+empty$ -- 151
+format.name$ -- 23
+if$ -- 320
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 6
+newline$ -- 46
+num.names$ -- 8
+pop$ -- 33
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 34
+stack$ -- 0
+substring$ -- 27
+swap$ -- 9
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 9
+width$ -- 10
+write$ -- 89
+(There was 1 warning)
