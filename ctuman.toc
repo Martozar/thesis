@@ -47,7 +47,7 @@
 \contentsline {section}{\numberline {5.2}Performance evaluation}{20}{section.5.2}
 \contentsline {section}{\numberline {5.3}Inference time evaluation}{21}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Mixed precision calculation}{22}{subsection.5.3.1}
-\contentsline {chapter}{\numberline {A}Darknet-19}{27}{appendix.A}
-\contentsline {chapter}{\numberline {B}Darknet-53}{29}{appendix.B}
-\contentsline {chapter}{\numberline {C}Sample from videos used for evaluation}{31}{appendix.C}
-\contentsline {chapter}{\numberline {D}Bibliography}{33}{appendix.D}
+\contentsline {chapter}{\numberline {A}Darknet-19}{25}{appendix.A}
+\contentsline {chapter}{\numberline {B}Darknet-53}{27}{appendix.B}
+\contentsline {chapter}{\numberline {C}Sample from videos used for evaluation}{29}{appendix.C}
+\contentsline {chapter}{\numberline {D}Bibliography}{31}{appendix.D}

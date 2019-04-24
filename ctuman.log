@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.17)  24 APR 2019 20:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.17)  24 APR 2019 20:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2962,181 +2962,181 @@ s/experiments/iou_equation.png>]
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \chapter with sig. 's' on line 576.
+. Redefining command \chapter with sig. 's' on line 581.
 .................................................
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \appendix with sig. 'ss' on line 576.
+. Redefining command \appendix with sig. 'ss' on line 581.
 .................................................
- [23] [24] [25] [26
-
-]
+ [23] [24]
 Appendix A.
-<images/used_networks/yolov2_darknet.png, id=496, 550.055pt x 663.47874pt>
+<images/used_networks/yolov2_darknet.png, id=487, 550.055pt x 663.47874pt>
 File: images/used_networks/yolov2_darknet.png Graphic file (type png)
 
 <use images/used_networks/yolov2_darknet.png>
 Package pdftex.def Info: images/used_networks/yolov2_darknet.png used on input 
-line 580.
+line 585.
 (pdftex.def)             Requested size: 326.69778pt x 394.07114pt.
- [27 <./images/used_networks/yolov2_darknet.png (PNG copy)>] [28
+ [25
+
+ <./images/used_networks/yolov2_darknet.png (PNG copy)>] [26
 
 ]
 Appendix B.
-<images/used_networks/yolov3_darknet.png, id=505, 491.8375pt x 694.595pt>
+<images/used_networks/yolov3_darknet.png, id=497, 491.8375pt x 694.595pt>
 File: images/used_networks/yolov3_darknet.png Graphic file (type png)
 
 <use images/used_networks/yolov3_darknet.png>
 Package pdftex.def Info: images/used_networks/yolov3_darknet.png used on input 
-line 586.
+line 591.
 (pdftex.def)             Requested size: 290.40111pt x 410.13606pt.
- [29 <./images/used_networks/yolov3_darknet.png (PNG copy)>] [30
+ [27 <./images/used_networks/yolov3_darknet.png (PNG copy)>] [28
 
 ]
 Appendix C.
-<images/experiments/5_4.png, id=514, 1927.2pt x 1084.05pt>
+<images/experiments/5_4.png, id=506, 1927.2pt x 1084.05pt>
 File: images/experiments/5_4.png Graphic file (type png)
 
 <use images/experiments/5_4.png>
-Package pdftex.def Info: images/experiments/5_4.png used on input line 595.
+Package pdftex.def Info: images/experiments/5_4.png used on input line 600.
 (pdftex.def)             Requested size: 181.5pt x 102.09259pt.
 
-<images/experiments/cars_on_streets.png, id=515, 1927.2pt x 1084.05pt>
+<images/experiments/cars_on_streets.png, id=507, 1927.2pt x 1084.05pt>
 File: images/experiments/cars_on_streets.png Graphic file (type png)
 
 <use images/experiments/cars_on_streets.png>
 Package pdftex.def Info: images/experiments/cars_on_streets.png used on input l
-ine 599.
+ine 604.
 (pdftex.def)             Requested size: 181.5pt x 102.09259pt.
 
-Overfull \hbox (14.59998pt too wide) in paragraph at lines 595--601
+Overfull \hbox (14.59998pt too wide) in paragraph at lines 600--606
  [][][][] 
  []
 
-<images/experiments/cars_highway.png, id=516, 1927.2pt x 1084.05pt>
+<images/experiments/cars_highway.png, id=508, 1927.2pt x 1084.05pt>
 File: images/experiments/cars_highway.png Graphic file (type png)
 
 <use images/experiments/cars_highway.png>
 Package pdftex.def Info: images/experiments/cars_highway.png used on input line
- 608.
+ 613.
 (pdftex.def)             Requested size: 181.5pt x 102.09259pt.
 
-<images/experiments/cars_road.png, id=517, 1927.2pt x 1084.05pt>
+<images/experiments/cars_road.png, id=509, 1927.2pt x 1084.05pt>
 File: images/experiments/cars_road.png Graphic file (type png)
 
 <use images/experiments/cars_road.png>
 Package pdftex.def Info: images/experiments/cars_road.png used on input line 61
-2.
+7.
 (pdftex.def)             Requested size: 181.5pt x 102.09259pt.
 
-<images/experiments/city_traffic.png, id=518, 1927.2pt x 1084.05pt>
+<images/experiments/city_traffic.png, id=510, 1927.2pt x 1084.05pt>
 File: images/experiments/city_traffic.png Graphic file (type png)
 
 <use images/experiments/city_traffic.png>
 Package pdftex.def Info: images/experiments/city_traffic.png used on input line
- 619.
+ 624.
 (pdftex.def)             Requested size: 181.5pt x 102.09259pt.
 
-<images/experiments/day_traffic.png, id=519, 1927.2pt x 1084.05pt>
+<images/experiments/day_traffic.png, id=511, 1927.2pt x 1084.05pt>
 File: images/experiments/day_traffic.png Graphic file (type png)
 
 <use images/experiments/day_traffic.png>
 Package pdftex.def Info: images/experiments/day_traffic.png used on input line 
-623.
+628.
 (pdftex.def)             Requested size: 181.5pt x 102.09259pt.
 
-Overfull \hbox (14.59998pt too wide) in paragraph at lines 608--624
+Overfull \hbox (14.59998pt too wide) in paragraph at lines 613--629
  [][][][] 
  []
 
 
-Overfull \hbox (14.59998pt too wide) in paragraph at lines 608--624
+Overfull \hbox (14.59998pt too wide) in paragraph at lines 613--629
  [][][][] 
  []
 
-<images/experiments/ped_humas_traffic.png, id=520, 1927.2pt x 1084.05pt>
+<images/experiments/ped_humas_traffic.png, id=512, 1927.2pt x 1084.05pt>
 File: images/experiments/ped_humas_traffic.png Graphic file (type png)
 
 <use images/experiments/ped_humas_traffic.png>
 Package pdftex.def Info: images/experiments/ped_humas_traffic.png used on input
- line 635.
+ line 640.
 (pdftex.def)             Requested size: 181.5pt x 102.09259pt.
 
-<images/experiments/1601538.png, id=521, 1927.2pt x 1084.05pt>
+<images/experiments/1601538.png, id=513, 1927.2pt x 1084.05pt>
 File: images/experiments/1601538.png Graphic file (type png)
 
 <use images/experiments/1601538.png>
-Package pdftex.def Info: images/experiments/1601538.png used on input line 639.
+Package pdftex.def Info: images/experiments/1601538.png used on input line 644.
 
 (pdftex.def)             Requested size: 181.5pt x 102.09259pt.
 
-Overfull \hbox (14.59998pt too wide) in paragraph at lines 635--640
+Overfull \hbox (14.59998pt too wide) in paragraph at lines 640--645
  [][][] 
  []
 
-<images/experiments/2577.png, id=522, 1927.2pt x 1084.05pt>
+<images/experiments/2577.png, id=514, 1927.2pt x 1084.05pt>
 File: images/experiments/2577.png Graphic file (type png)
 
 <use images/experiments/2577.png>
-Package pdftex.def Info: images/experiments/2577.png used on input line 646.
+Package pdftex.def Info: images/experiments/2577.png used on input line 651.
 (pdftex.def)             Requested size: 181.5pt x 102.09259pt.
 
-<images/experiments/2670.png, id=523, 1927.2pt x 1084.05pt>
+<images/experiments/2670.png, id=515, 1927.2pt x 1084.05pt>
 File: images/experiments/2670.png Graphic file (type png)
 
 <use images/experiments/2670.png>
-Package pdftex.def Info: images/experiments/2670.png used on input line 650.
+Package pdftex.def Info: images/experiments/2670.png used on input line 655.
 (pdftex.def)             Requested size: 181.5pt x 102.09259pt.
 
-<images/experiments/3047.png, id=524, 1927.2pt x 1084.05pt>
+<images/experiments/3047.png, id=516, 1927.2pt x 1084.05pt>
 File: images/experiments/3047.png Graphic file (type png)
 
 <use images/experiments/3047.png>
-Package pdftex.def Info: images/experiments/3047.png used on input line 656.
+Package pdftex.def Info: images/experiments/3047.png used on input line 661.
 (pdftex.def)             Requested size: 181.5pt x 102.09259pt.
 
-<images/experiments/948404.png, id=525, 1927.2pt x 1084.05pt>
+<images/experiments/948404.png, id=517, 1927.2pt x 1084.05pt>
 File: images/experiments/948404.png Graphic file (type png)
 
 <use images/experiments/948404.png>
-Package pdftex.def Info: images/experiments/948404.png used on input line 661.
+Package pdftex.def Info: images/experiments/948404.png used on input line 666.
 (pdftex.def)             Requested size: 181.5pt x 102.09259pt.
 
-<images/experiments/mod_traffic.png, id=526, 1927.2pt x 1084.05pt>
+<images/experiments/mod_traffic.png, id=518, 1927.2pt x 1084.05pt>
 File: images/experiments/mod_traffic.png Graphic file (type png)
 
 <use images/experiments/mod_traffic.png>
 Package pdftex.def Info: images/experiments/mod_traffic.png used on input line 
-668.
+673.
 (pdftex.def)             Requested size: 181.5pt x 102.09259pt.
 
-Overfull \hbox (14.59998pt too wide) in paragraph at lines 641--671
+Overfull \hbox (14.59998pt too wide) in paragraph at lines 646--676
  [][] 
  []
 
 
-Overfull \hbox (14.59998pt too wide) in paragraph at lines 641--671
+Overfull \hbox (14.59998pt too wide) in paragraph at lines 646--676
  [][] 
  []
 
 No file ctuman.ind.
-(./ctuman.bbl [31 <./images/experiments/5_4.png> <./images/experiments/cars_on_
+(./ctuman.bbl [29 <./images/experiments/5_4.png> <./images/experiments/cars_on_
 streets.png> <./images/experiments/cars_highway.png> <./images/experiments/cars
 _road.png> <./images/experiments/city_traffic.png> <./images/experiments/day_tr
-affic.png>] [32 <./images/experiments/ped_humas_traffic.png> <./images/experime
+affic.png>] [30 <./images/experiments/ped_humas_traffic.png> <./images/experime
 nts/1601538.png> <./images/experiments/2577.png> <./images/experiments/2670.png
 > <./images/experiments/3047.png> <./images/experiments/948404.png> <./images/e
 xperiments/mod_traffic.png>]
 Appendix D.
-) [33
+) [31
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 700.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 700.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 705.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 705.
  (./ctuman.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 700.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 700.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 705.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 705.
 Package rerunfilecheck Info: File `ctuman.out' has not changed.
 (rerunfilecheck)             Checksum: 947F976B24C90437C0C296B64E0B50B5;1941.
 
@@ -3148,10 +3148,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 44588 strings out of 493029
- 933635 string characters out of 6136233
- 1081528 words of memory out of 5000000
- 47085 multiletter control sequences out of 15000+600000
+ 44584 strings out of 493029
+ 933593 string characters out of 6136233
+ 1081522 words of memory out of 5000000
+ 47083 multiletter control sequences out of 15000+600000
  138372 words of font info for 167 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,92p,10387b,1225s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3168,10 +3168,10 @@ xmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 ssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy
 8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on ctuman.pdf (39 pages, 47958049 bytes).
+Output written on ctuman.pdf (37 pages, 47957646 bytes).
 PDF statistics:
- 655 PDF objects out of 1000 (max. 8388607)
- 535 compressed objects within 6 object streams
- 141 named destinations out of 1000 (max. 500000)
+ 647 PDF objects out of 1000 (max. 8388607)
+ 529 compressed objects within 6 object streams
+ 139 named destinations out of 1000 (max. 500000)
  47051 words of extra memory for PDF output out of 51595 (max. 10000000)
 

@@ -42,22 +42,22 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Image samples from GoodVision dataset\relax }}{21}{figure.5.2}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Intersection over Union https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/\relax }}{22}{figure.5.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Darknet-19\relax }}{27}{figure.A.1}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Darknet-19\relax }}{25}{figure.A.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Darknet-53\relax }}{29}{figure.B.1}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Darknet-53\relax }}{27}{figure.B.1}
 \addvspace {10\p@ }
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {5.4 4K Camera Road in Thailand.mp4}}}{31}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Cars Driving On Street.mp4}}}{31}{subfigure.1.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Cars On Highway.mp4}}}{31}{subfigure.1.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Cars On The Road.mp4}}}{31}{subfigure.1.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {City Traffic.mp4}}}{31}{subfigure.1.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Day Traffic Sample Video Dataset.mp4}}}{31}{subfigure.1.6}
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Samples from used videos\relax }}{32}{figure.C.1}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Pedestrian and Traffic, Human Activity Recognition Video ,DataSet By UET Peshawar.mp4}}}{32}{subfigure.1.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {Pexels Videos 1601538.mp4}}}{32}{subfigure.1.8}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {Pexels Videos 2577.mp4}}}{32}{subfigure.1.9}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {Pexels Videos 2670.mp4}}}{32}{subfigure.1.10}
-\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {Pexels Videos 3047.mp4}}}{32}{subfigure.1.11}
-\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {Pexels Videos 948404.mp4}}}{32}{subfigure.1.12}
-\contentsline {subfigure}{\numberline {(m)}{\ignorespaces {moderate\_traffic.mp4}}}{32}{subfigure.1.13}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {5.4 4K Camera Road in Thailand.mp4}}}{29}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Cars Driving On Street.mp4}}}{29}{subfigure.1.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Cars On Highway.mp4}}}{29}{subfigure.1.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Cars On The Road.mp4}}}{29}{subfigure.1.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {City Traffic.mp4}}}{29}{subfigure.1.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Day Traffic Sample Video Dataset.mp4}}}{29}{subfigure.1.6}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Samples from used videos\relax }}{30}{figure.C.1}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Pedestrian and Traffic, Human Activity Recognition Video ,DataSet By UET Peshawar.mp4}}}{30}{subfigure.1.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {Pexels Videos 1601538.mp4}}}{30}{subfigure.1.8}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {Pexels Videos 2577.mp4}}}{30}{subfigure.1.9}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {Pexels Videos 2670.mp4}}}{30}{subfigure.1.10}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {Pexels Videos 3047.mp4}}}{30}{subfigure.1.11}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {Pexels Videos 948404.mp4}}}{30}{subfigure.1.12}
+\contentsline {subfigure}{\numberline {(m)}{\ignorespaces {moderate\_traffic.mp4}}}{30}{subfigure.1.13}
 \addvspace {10\p@ }

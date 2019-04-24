@@ -457,12 +457,12 @@ Results of the evaluation are presented in table \ref{tab:cnn_evaluation}. YOLOv
 \end{table}
 \section{Inference time evaluation}
 For computing on the edge, we should ensure that time delay between receiving input data, in this case stream frame,  and providing output data to a user is as small as possible. Time of object detection and classification can be the biggest bottleneck in such systems, therefore it is necessary to choose such architecture that provides the best result with the least possible inference time. 
-Videos for this evaluation were taken from video databases with free access such as YouTube or Pexels. All videos have different camera view with various object count, video resolution and FPS, as shown in table \ref{video_characteristics}. This can affect neural network detector performance, hence we should also compare various input resolutions of neural networks. Video samples presented in \ref{fig:samples} shows obvious difference between videos scenes. Those scenes represents typical use case for our system.
+Videos for this evaluation were taken from video databases with free access such as YouTube or Pexels. All videos have different camera view with various object count, video resolution and FPS, as shown in table \ref{video_characteristics}. This can affect neural network detector performance, hence we should also compare various input resolutions of neural networks. Video samples presented in Appendix \ref{fig:samples} shows obvious difference between videos scenes. Those scenes represents typical use case for our system.
 % Please add the following required packages to your document preamble:
 % \usepackage{multirow}
 % \usepackage[table,xcdraw]{xcolor}
 % If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
-\begin{table}[htb]
+\begin{table}[H]
 \resizebox{\textwidth}{!}{
 \begin{tabular}{|c|c|c|}
 \hline
@@ -489,7 +489,9 @@ moderate\_traffic.mp4                                                           
 \end{table}
 
         
-We compared the time necessary to process one image frame by CNN using Jetson Xavier and other two different PCs with CPU and GPU specifications presented in tables \ref{malaria-tech-spec} and \ref{my-tech-spec}.  As we can see from table \ref{inference_time}, PC1 performs best for all three CNNs. On the other hand, PC2 has worse inference time comparing to Jetson Xavier using YOLOv3 and RetinaNet and almost the same while using squeezeDet. It is worth mentioning that YOLOv3 has similar inference time for both tested resolutions, and squeezeDet has the best inference time among all tested CNNs.
+We compared the time necessary to process one image frame by CNN using Jetson Xavier and other two different PCs with CPU and GPU specifications presented in tables \ref{malaria-tech-spec} and \ref{my-tech-spec}.  
+
+
 \begin{table}[htb]
         \centering
         \resizebox{.7\textwidth}{!}{%
@@ -514,6 +516,9 @@ We compared the time necessary to process one image frame by CNN using Jetson Xa
         \caption{PC2 technical specification}
         \label{my-tech-spec}
 \end{table}
+
+As we can see from table \ref{inference_time}, PC1 performs best for all three CNNs. On the other hand, PC2 has worse inference time comparing to Jetson Xavier using YOLOv3 and RetinaNet and almost the same while using squeezeDet. It is worth mentioning that YOLOv3 has similar inference time for both tested resolutions, and squeezeDet has the best inference time among all tested CNNs.
+
 % Please add the following required packages to your document preamble:
 % \usepackage{multirow}
 % \usepackage[table,xcdraw]{xcolor}
