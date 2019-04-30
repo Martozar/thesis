@@ -1,4 +1,65 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{sushma_nagaraj}
+Sushma Nagaraj, Bhushan Muthiyan, Swetha Ravi, Virginia Menezes, Kalki Kapoor,
+  and Hyeran Jeon.
+\newblock Edge-based street object detection.
+\newblock {\em 2017 IEEE SmartWorld, Ubiquitous Intelligence \& Computing,
+  Advanced \& Trusted Computed, Scalable Computing \& Communications, Cloud \&
+  Big Data Computing, Internet of People and Smart City Innovation}, Jun 2018.
+
+\bibitem{traffic_counts}
+Traffic count program.
+\newblock
+  \url{http://www.cuppad.org/what-we-do/transportation-planning/traffic-counts/}.
+
+\bibitem{arcgis}
+Esri demographics.
+\newblock
+  \url{https://doc.arcgis.com/en/esri-demographics/data/traffic-counts.htm}.
+
+\bibitem{zheng_mike_2012}
+Pengjun Zheng and Mcdonad Mike.
+\newblock An investigation on the manual traffic count accuracy.
+\newblock {\em Procedia - Social and Behavioral Sciences}, 43:226–231, 2012.
+
+\bibitem{point}
+Pneumatic tube detector.
+\newblock
+  \url{https://nptel.ac.in/courses/105101008/525_AutoLoop/point2/point.html}.
+
+\bibitem{windmillsoftware2018}
+Vehicle sensing: overview of techologies used to count vehicles.
+\newblock \url{https://www.windmill.co.uk/vehicle-sensing.html}, Mar 2018.
+
+\bibitem{liu_zeng_jiang_2017}
+Fei Liu, Zhiyuan Zeng, and Rong Jiang.
+\newblock A video-based real-time adaptive vehicle-counting system for urban
+  roads.
+\newblock {\em Plos One}, 12(11), 2017.
+
+\bibitem{shi_cao_zhang_li_xu_2016}
+Weisong Shi, Jie Cao, Quan Zhang, Youhuizi Li, and Lanyu Xu.
+\newblock Edge computing: Vision and challenges.
+\newblock {\em IEEE Internet of Things Journal}, 3(5):637–646, 2016.
+
+\bibitem{yi_hao_qin_li_2015}
+Shanhe Yi, Zijiang Hao, Zhengrui Qin, and Qun Li.
+\newblock Fog computing: Platform and applications.
+\newblock {\em 2015 Third IEEE Workshop on Hot Topics in Web Systems and
+  Technologies (HotWeb)}, 2015.
+
+\bibitem{yazici_basurra_gaber_2018}
+Mahmut Yazici, Shadi Basurra, and Mohamed Gaber.
+\newblock Edge machine learning: Enabling smart internet of things
+  applications.
+\newblock {\em Big Data and Cognitive Computing}, 2(3):26, 2018.
+
+\bibitem{ostby_2018}
+Torbjorn~Grande Ostby.
+\newblock {\em Object Detection and Tracking on a Raspberry Pi using Background
+  Subtraction and Convolutional Neural Networks}.
+\newblock PhD thesis, 2018.
 
 \bibitem{staff_2018}
 Science~X staff.
@@ -33,6 +94,12 @@ Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He, Bharath Hariharan, and
 \newblock Feature pyramid networks for object detection.
 \newblock {\em 2017 IEEE Conference on Computer Vision and Pattern Recognition
   (CVPR)}, 2017.
+
+\bibitem{lin_goyal_girshick_he_dollar_2017}
+Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollar.
+\newblock Focal loss for dense object detection.
+\newblock {\em 2017 IEEE International Conference on Computer Vision (ICCV)},
+  2017.
 
 \bibitem{redmon_divvala_girshick_farhadi_2016}
 Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi.

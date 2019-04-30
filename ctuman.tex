@@ -156,6 +156,9 @@ V Praze, \ctufield{day}.~\monthinlanguage{title}~\ctufield{year}
 \newcommand*\symbM{\raisebox{0.5\height}{\scalebox{0.7}{\color{red}${\blacktriangleright}\mkern-6mu{\blacktriangleleft}$}}}
 \newcommand*\itemO{\item\leavevmode\kern-0.33em\symbO}
 \newcommand*\itemM{\item\leavevmode\kern-0.33em\symbM}
+
+
+\setcounter{secnumdepth}{4}
 \begin{document}
 % We actually don't want inline listings to have a background color
 \renewcommand \ctulstsep {0pt}
@@ -167,23 +170,141 @@ V Praze, \ctufield{day}.~\monthinlanguage{title}~\ctufield{year}
 \end{lrbox}
 \maketitle
 \chapter{Introduction}
-\section{Nvidia Jetson}
-\label{section:nvidia_jetson}
-Nvidia Jetson is a series of embedded modules producing by Nvidia designed for accelerating machine learning applications. First board, Jetson TK1, was presented in 2014. Jetson TK2 was announced in 2017  and was designed for low power systems like smaller camera drones. The next module called Jetson Xavier introduced in 2018 brings up to 20$\times$ acceleration compared to predecessor devises with power efficiency being improved 10$\times$. The newest Nvidia Nano was announced in 2019 and is focused on hobbyist robotics thanks to its low price. The last three modules are compared in \ref{jetson_comparison}.
+
+Internet of Things (IoT) and artificial intelligence (AI) is becoming part of out lives making everything smart and intelligent. Integration of IoT and AI in smart cities is one of the promising application\cite{sushma_nagaraj}. 
+Machine learning has given the ability to process various tasks withou human intervention such as recognizing objects, playing games, diagnosis diseases. Deep learning is one of the major branches in of machine learning, and one of the most trending application of deep learning is traffic object detection, which is the core component of traffic control in smart cities. It not only makes the urban life convenient, but also safer.
+
+
+\section{Problem overview}
+
+Traffic counts are widely used by state and local transportation official in the planning of load improvements and monitoring of traffic conditions \cite{traffic_counts}. In private sector traffic counts data can be used for several reasons like identifying the best location for business, analysing how traffic may impact a potential site, scheduling staff hours to peak periods of traffic and so on \cite{arcgis}.
+
+ There are several technologies how traffic data can be collected, each one having its own advantages and disadvantages.
+
+\section{Overview of technologies to measure traffic}
+\subsection{Manual counts}
+Manual traffic counts are defined as in-person traffic counts, where the counter is physically present at the location of data collection 
+%(https://mlyon25.files.wordpress.com/2015/09/methodology-for-manual-traffic-counts.pdf)
+ or counts objects from recorded videos of the road. A person usually uses either an electronic held counter or records data using a tally sheet. Manual counts are quite precise with only 1\% counting errors and classification errors between 4-5\%\cite{zheng_mike_2012}. 
+ %(https://www.researchgate.net/publication/257715846_An_Investigation_on_the_Manual_Traffic_Count_Accuracy).
+ Only a small sample of data is taken and results are extrapolated for the rest of the year or season.  
+ 
+\subsection{Pneumatic tube detector}
+This methods uses one or more rubber hoses that are stretched  across the road and connected at one end to a data logger, while the other end of the tube is sealed. When a vehicle tire passes over the tube, sensors send a burst of air pressure along the tube and data are logged. This method can be used to record data from several lanes of traffic and vehicle direction can be determined by recording which tube was crossed first, but if two vehicles cross the tubes at the same time, the direction can not be determined correctly. One of the advantages of pneumatic tube detector is its low cost and easy deployment. However, its durability is low, it is not suitable for high flow or high speed roads and it is harder to classify some kind of vehicles\cite{point}.
+
+\subsection{Sensors for traffic data collection}
+Different sensor can be used for traffic counts. For example, piezoelectric sensors mounted in a groove cut into road's surface collect data by converting mechanical energy into electrical energy\cite{windmillsoftware2018}.
+ Basically it works on the same principle as pneumatic tube detector.
+ 
+ Another example of sensor used for traffic counts is magnetic sensors that detect vehicle by measuring the change in the earth's magnetic field as the vehicle pass over the detector buried in the road\cite{windmillsoftware2018}.
+ 
+ Other sensors as passive or active infrared devices, acoustic detectors, inductive loops are also quite popular in traffic surveys, but their usage is limited.
+ 
+\subsection{Video object detection}
+While manual object counting is labour intensive and pneumatic tube detectors and other sensors do not provide sufficient classification results, systems that can automatically analyse videos of roads become more popular for traffic counting and analysing. Applying algorithm for object detection and classification for object counting has proved to be extremely accurate with accuracy exceeding 99\%\cite{liu_zeng_jiang_2017}.
+These systems are cost-effective as they can count in many directories at once with only one camera needed for several lines or exits at a junction.  However, most of available solutions work only with recorded videos and are not suitable for online traffic count and monitoring, or uses remote servers for any calculations, and we will further discuss these systems in Chapter \ref{chapter:related_works}.
+
+
+\section{Solution design}
+
+In this section we will briefly discuss what our goal and use case are, what edge computing means and what hardware we will use.
+
+\subsection{Goal of the thesis}
+In this thesis we would like to explore both commercial and non-commercial solution for object detection and classification using deep neural networks and propose a software solution for real-time traffic count and monitoring utilizing edge computing. 
+
+
+pridat use-case, popis trid, typicke umisteni kamery atd
+\subsection{Edge computing}
+Edge computing is a computing paradigm, when data are processed at the edge of the network. Figure \ref{edge computing} shows the two-way computing stream in edge computing. We can see, that things are not only data consumer, but they also work as data producers here. They can both request service and content from the cloud and perform the computing tasks. 
+
 \begin{figure}[h]
-\caption{Nvidia Jetson comparison https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/}
-\label{jetson_comparison}
-\includegraphics[width=\textwidth]{images/introduction/compare_jetson.png}
+\caption{Edge computing paradigm\cite{shi_cao_zhang_li_xu_2016}}
+\label{edge computing}
+\includegraphics[width=.7\textwidth]{images/introduction/Edge-computing-paradigm.png}
 \end{figure}
-As we can see, unlike other boards Jetson Xavier is build around NVIDIA Volta\texttrademark GPU with tensor cores. These tensor cores accelerate large matrix operations and can perform mixed-precision matrix multiplication and accumulate calculation in a single operation. Each core  provides a 4$\times$4$\times$4 matrix processing array which performs the operation $D = A \cdot B+C$ shown in \ref{tensor_core}, where $A,B,C,D$ are 4$\times$4 matrices. This operation is crucial for most of machine learning applications, especially in deep learning, because, as we will discuss in further chapters, output of each neuron in neural networks are calculated in similar way. 
+
+Edge computing is beneficial for many real-time applications such as traffic object detection because it can provide a timely solution without needing to communicate with remote server. Some researches \cite{yi_hao_qin_li_2015} show, that platforms built for face recognitions application has reduced response time from 900 to 169 ms when computations are moved from cloud to the edge. 
+
+\subsection{Hardware}
+\label{section:nvidia_jetson}
+
+While edge computing can drastically reduce response time, we should keep in mind, that hardware used for edge computing may not be as powerful as one we can use in cloud computing. Some works have proved \cite{yazici_basurra_gaber_2018} that such machine learning algorithm as random forests or support vector machine can be run on widely available devices as Raspberry Pi. Another research\cite{ostby_2018}, however, shows, that Raspberry Pi does not have enough computation power for deep convolutional neural networks. Because of it, we should find suitable hardware, if we want to use CNN for traffic object detection and recognition.
+
+Nvidia offers a series of embedded modules for edge computing called Nvidia Jetson. These modules are specifically designed for accelerating machine learning applications. First board, Jetson TK1, was presented in 2014\footnote{https://nvidianews.nvidia.com/news/nvidia-unveils-first-mobile-supercomputer-for-embedded-systems}
+. Jetson TK2 was announced in 2017\footnote{https://nvidianews.nvidia.com/news/nvidia-jetson-tx2-enables-ai-at-the-edge}
+ and was designed for low power systems like smaller camera drones. The next module called Jetson Xavier introduced in 2018\footnote{https://news.developer.nvidia.com/jetson-agx-xavier-module-now-available/}
+  brings up to 20$\times$ acceleration compared to predecessor devises with power efficiency being improved 10$\times$. The newest Nvidia Nano was announced in 2019\footnote{https://nvidianews.nvidia.com/news/nvidia-announces-jetson-nano-99-tiny-yet-mighty-nvidia-cuda-x-ai-computer-that-runs-all-ai-models}
+   and is focused on hobbyist robotics thanks to its low price. The last three modules are compared in Table \ref{jetson_comparison}.
+   
+   % Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[h]
+\catcode`\-=12
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|}
+\hline
+                                                       & \cellcolor[HTML]{C0C0C0}                                                                                   & \cellcolor[HTML]{C0C0C0}                                                                                                     & \cellcolor[HTML]{C0C0C0}                                                                                    \\
+\multirow{-2}{*}{}                                     & \multirow{-2}{*}{\cellcolor[HTML]{C0C0C0}Jetson TX2 8GB}                                                   & \multirow{-2}{*}{\cellcolor[HTML]{C0C0C0}Jetson AGX Xavier\texttrademark}                                     & \multirow{-2}{*}{\cellcolor[HTML]{C0C0C0}Jetson Nano\texttrademark}                          \\ \hline
+GPU                                                    & \begin{tabular}[c]{@{}c@{}}NVIDIA Pascal\texttrademark\\ 256 NVIDIA CUDA cores\end{tabular} & \begin{tabular}[c]{@{}c@{}}NVIDIA Volta\texttrademark\\ 512 NVIDIA CUDA cores \\ 64 Tensor cores\end{tabular} & \begin{tabular}[c]{@{}c@{}}NVIDIA Maxwell\texttrademark\\ 126 NVIDIA CUDA cores\end{tabular} \\ \hline
+CPU                                                    & \begin{tabular}[c]{@{}c@{}}Dual-core Denver 2 64-bit CPU\\ Quad-core ARM A57 complex\end{tabular}          & \begin{tabular}[c]{@{}c@{}}8-core ARM v8.2 64-bit\\ 8MB L2 + 4MB L3\end{tabular}                                             & \begin{tabular}[c]{@{}c@{}}Quad-core ARM Cortex-A57\\  MPCore processor\end{tabular}                        \\ \hline
+Memory                                                 & 8GB 128-bit LPDDR4                                                                                         & 16GB 128-bit LPDDR4x                                                                                                         & 4GB 64-bit LPDDR4                                                                                           \\ \hline
+Storage                                                & 32GB eMMC 5.1                                                                                              & 32GB eMMC 5.1                                                                                                                & 16GB eMMC 5.1                                                                                               \\ \hline
+\begin{tabular}[c]{@{}c@{}}Video\\ Encode\end{tabular} & 2x 4K @ 30 (HEVC)                                                                                          & 8x 4K @ 60 (HEVC)                                                                                                            & 4K @ 30 (H.264/H.265)                                                                                       \\ \hline
+\begin{tabular}[c]{@{}c@{}}Video\\ Decode\end{tabular} & \begin{tabular}[c]{@{}c@{}}2x 4K @ 30\\ 12-bit support\end{tabular}                                        & \begin{tabular}[c]{@{}c@{}}12x 4K @ 30\\ 12-bit support\end{tabular}                                                         & \begin{tabular}[c]{@{}c@{}}4K @ 60\\ (H.264/H.265)\end{tabular}                                             \\ \hline
+                                                       & Wi-Fi onboard                                                                                              & Wi-Fi requires external chip                                                                                                 & Wi-Fi requires external chip                                                                                \\ \cline{2-4} 
+\multirow{-2}{*}{Connectivity}                         & \multicolumn{3}{l|}{\hspace{.6\textwidth}Gigabit Ethernet}                                                                                                                                                                                                                                                                                                                   \\ \hline
+Mechanical                                             & \begin{tabular}[c]{@{}c@{}}400-pin\\  connector\end{tabular}                                               & \begin{tabular}[c]{@{}c@{}}699-pin\\  connector\end{tabular}                                                                 & \begin{tabular}[c]{@{}c@{}}260-pin\\  edge connector\end{tabular}                                           \\ \hline
+Camera                                                 & \begin{tabular}[c]{@{}c@{}}12 lanes MIPI CSI-2, \\ D-PHY\\  1.2 (30 Gbps)\end{tabular}                     & \begin{tabular}[c]{@{}c@{}}16 lanes MIPI CSI-2, \\ 8 SLVS-EC D-PHY (40 Gbps), C-PHY\\  (109 Gbps)\end{tabular}               & \begin{tabular}[c]{@{}c@{}}12 lanes (3x4 or 4x2) MIPI CSI-2, \\ DPHY 1.1 (1.5 Gbps)\end{tabular}            \\ \hline
+Size                                                   & 87 mm x 50 mm                                                                                              & 100 mm x87 mm                                                                                                                & 69.6 mm x 45 mm                                                                                             \\ \hline
+\end{tabular}
+\caption{NVIDIA Jetson comparison https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/}
+\label{jetson_comparison}
+}
+\end{table}
+
+As we can see, unlike other boards Jetson Xavier is build around NVIDIA Volta\texttrademark GPU with tensor cores which we will describe later in paragraph \ref{subsection:tensor_cores}. Jetson Xavier also uses two engines designed for AI acceleration, namely Nvidia Deep Learning Accelerator \footnote{http://nvdla.org/} and Vision Accelerator engines. Both of them are described in paragraph \ref{sssection:accelerators}. 
+\subsubsection{Tensor cores}
+\label{subsection:tensor_cores}
+Tensor cores are capable of performing one matrix-multiply-and accumulate operation in a 4$\times$4 matrix in one GPU clock cycle.%https://arxiv.org/pdf/1803.04014.pdf
+Tensor cores in mixed-precision mode take input data in half floating-point precision, perform matrix multiplication in half precision and the accumulation in single or half precision, as we can see in Fig. \ref{tensor_core}.
+
+ This operation is crucial for most of machine learning applications, especially in deep learning, because, as we will discuss in further chapters, output of each neuron in neural networks are calculated in similar way. 
 \begin{figure}[h]
-\caption{Tensor core operation https://devblogs.nvidia.com/programming-tensor-cores-cuda-9/}
+\caption{Tensor core operation %https://devblogs.nvidia.com/programming-tensor-cores-cuda-9/
+}
 \label{tensor_core}
 \includegraphics[width=\textwidth]{images/introduction/tensor_core.png}
 \end{figure}
-Another advantage of Jetson Xavier is using of Nvidia Deep Learning Accelerator engines\footnote{http://nvdla.org/}. These engines improve energy efficiency and free up the GPU to run more complex networks and implemented dynamic tasks  and has up to 5 trillion operations per second (TOPS) INT8 or 2.5 TFLOPS FP16 performance with a power consumption of only 0.5-1.5W. They also supports accelerating of CNN convolution, deconvolution, activation functions, min/max/mean pooling, local response normalization, and fully-connected layers.
+
+
+\subsubsection{Deep learning and vision accelerators}
+\label{sssection:accelerators}
+
+Deep Learning Accelerator, shown in Fig. \ref{fig:dla}, improves energy efficiency and free up the GPU to run more complex networks and dynamic tasks. The DLA has up to 5 trillion operations per second (TOPS) with INT8 precision or 2.5 trillion floating-point operations per second (TFLOP) with FP16 precision.%https://devblogs.nvidia.com/nvidia-jetson-agx-xavier-32-teraops-ai-robotics/ 
+It also support acceleration of most common CNN layers, that are described in Chapter \ref{chapter:neural_networks}
+
+\begin{figure}[h]
+\caption{Deep Learning accelerator architecture %https://devblogs.nvidia.com/nvidia-jetson-agx-xavier-32-teraops-ai-robotics/
+}
+\label{fig:dla}
+\includegraphics[width=.7\textwidth]{images/introduction/DLA.png}
+\end{figure}
+
+
+Another engine used in Jetson Xavier is Vision Accelerator, shown in Fig. \ref{fig:va}. This engine is responsable for acceleration of algorithm such as optical flow, point cloud processing, morphological operations, histogramming and so on.  
+
+\begin{figure}[h]
+\caption{Vision Accelerator %https://devblogs.nvidia.com/nvidia-jetson-agx-xavier-32-teraops-ai-robotics/
+}
+\label{fig:va}
+\includegraphics[width=.7\textwidth]{images/introduction/va.png}
+\end{figure}
 \chapter{Related works}
+\label{chapter:related_works}
 \chapter{Neural networks}
+\label{chapter:neural_networks}
 Artificial neural networks are systems inspired by a brain.     The basic computation unit in a brain is a neuron (see \ref{neuron}), which has input and output. The input is a dendritic tree connected to the outputs of other neurons called axons. Neurons operates in a single direction from the input to the output and their output is binary.  
 Neurons are also basic computation elements of artificial neural networks. Similarly to biological neural networks, it can have several inputs and outputs. Every neuron can be described by function $f\left(\omega \cdot \textbf{x}  + b\right)$, where $\textbf{x}$ is the input, $\omega$ denotes weights, $b$ is a bias and $f$ is the activation function. 
 There are several types of artificial neural networks that are commonly used in machine learning. The most popular type used in object detection is convolutional neural network (CNN), which will be described in the following section.
@@ -573,10 +694,20 @@ RetinaNet 416                                            & 74                   
 \caption{Inference time using mixed precision calculation}
 \label{inference_time_mixed}
 \end{table}
-Insignificant improvement in inference FPS is caused by the fact that TensorRT supports only some layers defined in TensorFlow. We used RetinaNet implemented in Keras and some of its layer are custom and not supported in TensorRT. This problem can be solved by reimplementing RetinaNet in TensorFlow or add support for these layers into TensorRT.  Although this was a part of the thesis assignment, after some discussions with supervisor, we decided not to improve RetinNet converter, because we have already achieved sufficiently good results with YOLOv3 in both detector precision and its inference time.
+Insignificant improvement in inference FPS is caused by the fact that TensorRT supports only some layers defined in TensorFlow. We used RetinaNet implemented in Keras and some of its layer are custom and not supported in TensorRT. This problem can be solved by reimplementing RetinaNet in TensorFlow or add support for these layers into TensorRT.  However, we have already achieved sufficiently good results with YOLOv3 in both detector precision and its inference time, and we came to a decision that any future work on RetinaNet and its improvement using TensorRT is unnecessary. 
                                                                                         
                                                                                 
-        
+\chapter{Implementation}
+
+In this chapter we will describe how 
+\section{Prerequisites installation}
+instalace software, docker, prace s grafickou kartou jetson uvnitr dockeru
+\subsection{}
+\section{Docker}
+\section{YOLOv3 detector}
+popsat implementaci detektoru
+\section{API}
+\chapter{Conclusions}
 \appendix
 \chapter{Darknet-19}
 \label{darknet-19}

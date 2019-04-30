@@ -3,46 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: ctuman.aux
 The style file: unsrt.bst
 Database file #1: ctutest.bib
-Warning--I didn't find a database entry for "lin_goyal_girshick_he_dollar_2017"
-You've used 9 entries,
+Warning--empty school in ostby_2018
+You've used 21 entries,
             1791 wiz_defined-function locations,
-            490 strings with 4974 characters,
-and the built_in function-call counts, 1472 in all, are:
-= -- 110
-> -- 84
+            546 strings with 6994 characters,
+and the built_in function-call counts, 3451 in all, are:
+= -- 262
+> -- 190
 < -- 0
-+ -- 32
-- -- 23
-* -- 76
-:= -- 256
-add.period$ -- 25
-call.type$ -- 9
-change.case$ -- 9
++ -- 73
+- -- 52
+* -- 195
+:= -- 577
+add.period$ -- 57
+call.type$ -- 21
+change.case$ -- 20
 chr.to.int$ -- 0
-cite$ -- 9
-duplicate$ -- 64
-empty$ -- 151
-format.name$ -- 23
-if$ -- 320
+cite$ -- 22
+duplicate$ -- 150
+empty$ -- 361
+format.name$ -- 52
+if$ -- 758
 int.to.chr$ -- 0
-int.to.str$ -- 9
-missing$ -- 6
-newline$ -- 46
-num.names$ -- 8
-pop$ -- 33
+int.to.str$ -- 21
+missing$ -- 13
+newline$ -- 102
+num.names$ -- 16
+pop$ -- 74
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 34
+skip$ -- 80
 stack$ -- 0
-substring$ -- 27
-swap$ -- 9
+substring$ -- 87
+swap$ -- 21
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 9
-width$ -- 10
-write$ -- 89
+warning$ -- 1
+while$ -- 20
+width$ -- 23
+write$ -- 202
 (There was 1 warning)
