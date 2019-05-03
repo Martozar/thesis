@@ -4,11 +4,11 @@
 \select@language {english}
 \select@language {english}
 \select@language {english}
-\contentsline {paragraph}{\numberline {0.0.0.0.1}Keywords:}{iv}{paragraph.0.0.0.0.1}
-\contentsline {paragraph}{\numberline {0.0.0.0.2}Supervisor:}{iv}{paragraph.0.0.0.0.2}
+\contentsline {paragraph}{Keywords:}{iv}{paragraph*.1}
+\contentsline {paragraph}{Supervisor:}{iv}{paragraph*.2}
 \select@language {czech}
-\contentsline {paragraph}{\numberline {0.0.0.0.3}Kl\'i\v cov\'a\ slova:}{iv}{paragraph.0.0.0.0.3}
-\contentsline {paragraph}{\numberline {0.0.0.0.4}P\v reklad\ n\'azvu:}{iv}{paragraph.0.0.0.0.4}
+\contentsline {paragraph}{Kl\'i\v cov\'a\ slova:}{iv}{paragraph*.3}
+\contentsline {paragraph}{P\v reklad\ n\'azvu:}{iv}{paragraph*.4}
 \select@language {english}
 \select@language {english}
 \select@language {english}
@@ -21,51 +21,54 @@
 \select@language {english}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Problem overview}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Overview of technologies to measure traffic}{1}{section.1.2}
+\contentsline {section}{\numberline {1.2}Overview of technologies for traffic measurement}{1}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Manual counts}{1}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Pneumatic tube detector}{2}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Sensors for traffic data collection}{2}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}Video object detection}{2}{subsection.1.2.4}
-\contentsline {section}{\numberline {1.3}Solution design}{2}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Goal of the thesis}{3}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Edge computing}{3}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Hardware}{3}{subsection.1.3.3}
-\contentsline {subsubsection}{\numberline {1.3.3.1}Tensor cores}{4}{subsubsection.1.3.3.1}
-\contentsline {subsubsection}{\numberline {1.3.3.2}Deep learning and vision accelerators}{5}{subsubsection.1.3.3.2}
-\contentsline {chapter}{\numberline {2}Related works}{7}{chapter.2}
-\contentsline {chapter}{\numberline {3}Neural networks}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}Architecture}{10}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Convolutional layer}{10}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Non-linearity layer}{10}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Pooling layer}{11}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Fully connected layer}{11}{subsection.3.1.4}
-\contentsline {section}{\numberline {3.2}Training of CNN}{11}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Backpropagation}{12}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Dropout}{13}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Batch normalization}{13}{subsection.3.2.3}
-\contentsline {chapter}{\numberline {4}Used networks}{15}{chapter.4}
-\contentsline {section}{\numberline {4.1}ResNet}{15}{section.4.1}
-\contentsline {section}{\numberline {4.2}RetinaNet}{16}{section.4.2}
-\contentsline {section}{\numberline {4.3}SqueezeDet}{16}{section.4.3}
-\contentsline {section}{\numberline {4.4}YOLO}{17}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}YOLO v1}{17}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}YOLO v2}{18}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}YOLO v3}{18}{subsection.4.4.3}
-\contentsline {chapter}{\numberline {5}Experiments}{23}{chapter.5}
-\contentsline {section}{\numberline {5.1}Datasets}{23}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}KITTI dataset}{23}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}GoodVision dataset}{23}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Performance evaluation}{24}{section.5.2}
-\contentsline {section}{\numberline {5.3}Inference time evaluation}{25}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Mixed precision calculation}{26}{subsection.5.3.1}
-\contentsline {chapter}{\numberline {6}Implementation}{29}{chapter.6}
-\contentsline {section}{\numberline {6.1}Prerequisites installation}{29}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}}{29}{subsection.6.1.1}
-\contentsline {section}{\numberline {6.2}Docker}{29}{section.6.2}
-\contentsline {section}{\numberline {6.3}YOLOv3 detector}{29}{section.6.3}
-\contentsline {section}{\numberline {6.4}API}{29}{section.6.4}
-\contentsline {chapter}{\numberline {7}Conclusions}{31}{chapter.7}
-\contentsline {chapter}{\numberline {A}Darknet-19}{33}{appendix.A}
-\contentsline {chapter}{\numberline {B}Darknet-53}{35}{appendix.B}
-\contentsline {chapter}{\numberline {C}Sample from videos used for evaluation}{37}{appendix.C}
-\contentsline {chapter}{\numberline {D}Bibliography}{39}{appendix.D}
+\contentsline {subsection}{\numberline {1.2.4}Video object detection}{3}{subsection.1.2.4}
+\contentsline {section}{\numberline {1.3}Solution design}{3}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Goal of the thesis}{4}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Edge computing}{4}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Hardware}{4}{subsection.1.3.3}
+\contentsline {subsubsection}{\numberline {1.3.3.1}Tensor cores}{6}{subsubsection.1.3.3.1}
+\contentsline {subsubsection}{\numberline {1.3.3.2}Deep learning and vision accelerators}{6}{subsubsection.1.3.3.2}
+\contentsline {chapter}{\numberline {2}Related works}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}CNN on the edge}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}Commercial traffic count systems}{9}{section.2.2}
+\contentsline {section}{\numberline {2.3}Non-commercial traffic count systems}{9}{section.2.3}
+\contentsline {chapter}{\numberline {3}Neural networks}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}Architecture}{12}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Convolutional layer}{12}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Non-linearity layer}{12}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Pooling layer}{13}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Fully connected layer}{13}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}Training of CNN}{13}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Backpropagation}{14}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Dropout}{15}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Batch normalization}{15}{subsection.3.2.3}
+\contentsline {chapter}{\numberline {4}Network architectures used in the thesis}{17}{chapter.4}
+\contentsline {section}{\numberline {4.1}ResNet}{17}{section.4.1}
+\contentsline {section}{\numberline {4.2}RetinaNet}{17}{section.4.2}
+\contentsline {section}{\numberline {4.3}SqueezeDet}{18}{section.4.3}
+\contentsline {section}{\numberline {4.4}YOLO}{20}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}YOLO v1}{20}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}YOLO v2}{21}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}YOLO v3}{22}{subsection.4.4.3}
+\contentsline {chapter}{\numberline {5}Experiments}{25}{chapter.5}
+\contentsline {section}{\numberline {5.1}Datasets}{25}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}KITTI dataset}{25}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}``GV-2018''}{26}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Performance evaluation}{26}{section.5.2}
+\contentsline {section}{\numberline {5.3}Inference time evaluation}{28}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Mixed precision calculation}{29}{subsection.5.3.1}
+\contentsline {chapter}{\numberline {6}Implementation}{33}{chapter.6}
+\contentsline {section}{\numberline {6.1}Docker}{33}{section.6.1}
+\contentsline {section}{\numberline {6.2}Prerequisites installation}{34}{section.6.2}
+\contentsline {section}{\numberline {6.3}YOLOv3 detector}{34}{section.6.3}
+\contentsline {section}{\numberline {6.4}API}{34}{section.6.4}
+\contentsline {chapter}{\numberline {7}Conclusions}{35}{chapter.7}
+\contentsline {section}{\numberline {7.1}Feature work}{35}{section.7.1}
+\contentsline {chapter}{\numberline {A}Darknet-19}{37}{appendix.A}
+\contentsline {chapter}{\numberline {B}Darknet-53}{39}{appendix.B}
+\contentsline {chapter}{\numberline {C}Sample from videos used for evaluation}{41}{appendix.C}
+\contentsline {chapter}{\numberline {D}Bibliography}{43}{appendix.D}

@@ -1,5 +1,107 @@
 \begin{thebibliography}{10}
 
+\bibitem{manual_count}
+{Innovative Ways to Count Pedestrians and Bicyclists}.
+\newblock
+  \url{http://njbikeped.org/innovative-ways-count-pedestrians-bicyclists/}, Dec
+  2015.
+\newblock [online; accessed 1-May-2019].
+
+\bibitem{pneu_tubes}
+Tcs for surveys.
+\newblock \url{https://www.tcsforsurveys.com.au/equipment-hire}.
+\newblock [online; accessed 1-May-2019].
+
+\bibitem{shi_cao_zhang_li_xu_2016}
+Weisong Shi, Jie Cao, Quan Zhang, Youhuizi Li, and Lanyu Xu.
+\newblock Edge computing: Vision and challenges.
+\newblock {\em IEEE Internet of Things Journal}, 3(5):637–646, 2016.
+
+\bibitem{nvidia_blog_tensor_cores}
+Programming tensor cores in {CUDA} 9.
+\newblock \url{https://devblogs.nvidia.com/programming-tensor-cores-cuda-9},
+  Mar 2019.
+\newblock [online; accessed 30-April-2019].
+
+\bibitem{nvidia_blog_xavier}
+{NVIDIA Jetson AGX Xavier Delivers 32 TeraOps for New Era of AI in Robotics}.
+\newblock
+  \url{https://devblogs.nvidia.com/nvidia-jetson-agx-xavier-32-teraops-ai-robotics/},
+  Feb 2019.
+\newblock [online; accessed 30-April-2019].
+
+\bibitem{staff_2018}
+Science~X staff.
+\newblock Why are neuron axons long and spindly? study shows they're optimizing
+  signaling efficiency.
+\newblock
+  \url{https://medicalxpress.com/news/2018-07-neuron-axons-spindly-theyre-optimizing.html},
+  Jul 2018.
+\newblock [online; accessed 28-April-2019].
+
+\bibitem{britz_2016}
+Denny Britz.
+\newblock Understanding convolutional neural networks for {NLP}.
+\newblock
+  \url{http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/},
+  Jan 2016.
+\newblock [online; accessed 25-April-2019].
+
+\bibitem{cs231n}
+Cs231n convolutional neural networks for visual recognition.
+\newblock \url{http://cs231n.github.io/convolutional-networks}.
+\newblock [online; accessed 30-April-2019].
+
+\bibitem{squeezenet}
+Forrest~N. Iandola, Song Han, Matthew~W. Moskewicz, Khalid Ashraf, William~J.
+  Dally, and Kurt Keutzer.
+\newblock Squeezenet: Alexnet-level accuracy with 50x fewer parameters and
+  <0.5mb model size, 2016.
+
+\bibitem{wu_iandola_jin_keutzer_2017}
+Bichen Wu, Forrest Iandola, Peter~H. Jin, and Kurt Keutzer.
+\newblock Squeezedet: Unified, small, low power fully convolutional neural
+  networks for real-time object detection for autonomous driving.
+\newblock {\em 2017 IEEE Conference on Computer Vision and Pattern Recognition
+  Workshops (CVPRW)}, 2017.
+
+\bibitem{redmon_divvala_girshick_farhadi_2016}
+Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi.
+\newblock You only look once: Unified, real-time object detection.
+\newblock {\em 2016 IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)}, 2016.
+
+\bibitem{redmon_farhadi_2017}
+Joseph Redmon and Ali Farhadi.
+\newblock Yolo9000: Better, faster, stronger.
+\newblock {\em 2017 IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)}, 2017.
+
+\bibitem{Redmon2018YOLOv3AI}
+Joseph Redmon and Ali Farhadi.
+\newblock Yolov3: An incremental improvement.
+\newblock {\em CoRR}, abs/1804.02767, 2018.
+
+\bibitem{pyimagesearch_2018}
+Intersection over union ({IoU}) for object detection.
+\newblock
+  \url{https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/},
+  Jun 2018.
+\newblock [online; accessed 1-May-2019].
+
+\bibitem{zhang_liu_pu_dou_wu_zhou_2018}
+Qi~Zhang, Ling Liu, Calton Pu, Qiwei Dou, Liren Wu, and Wei Zhou.
+\newblock A comparative study of containers and virtual machines in big data
+  environment.
+\newblock {\em 2018 IEEE 11th International Conference on Cloud Computing
+  (CLOUD)}, 2018.
+
+\bibitem{nvidia_es}
+Nvidia embedded systems for next-gen autonomous machines.
+\newblock
+  \url{https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/}.
+\newblock [online; accessed 17-April-2019].
+
 \bibitem{sushma_nagaraj}
 Sushma Nagaraj, Bhushan Muthiyan, Swetha Ravi, Virginia Menezes, Kalki Kapoor,
   and Hyeran Jeon.
@@ -12,11 +114,18 @@ Sushma Nagaraj, Bhushan Muthiyan, Swetha Ravi, Virginia Menezes, Kalki Kapoor,
 Traffic count program.
 \newblock
   \url{http://www.cuppad.org/what-we-do/transportation-planning/traffic-counts/}.
+\newblock [online; accessed 27-April-2019].
 
 \bibitem{arcgis}
 Esri demographics.
 \newblock
   \url{https://doc.arcgis.com/en/esri-demographics/data/traffic-counts.htm}.
+\newblock [online; accessed 30-April-2019].
+
+\bibitem{adebisi_1987}
+Olusegun Adebisi.
+\newblock Improving manual counts of turning traffic volumes at road junctions.
+\newblock {\em Journal of Transportation Engineering}, 113(3):256–267, 1987.
 
 \bibitem{zheng_mike_2012}
 Pengjun Zheng and Mcdonad Mike.
@@ -27,10 +136,12 @@ Pengjun Zheng and Mcdonad Mike.
 Pneumatic tube detector.
 \newblock
   \url{https://nptel.ac.in/courses/105101008/525_AutoLoop/point2/point.html}.
+\newblock [online; accessed 25-April-2019].
 
 \bibitem{windmillsoftware2018}
 Vehicle sensing: overview of techologies used to count vehicles.
 \newblock \url{https://www.windmill.co.uk/vehicle-sensing.html}, Mar 2018.
+\newblock [online; accessed 30-April-2019].
 
 \bibitem{liu_zeng_jiang_2017}
 Fei Liu, Zhiyuan Zeng, and Rong Jiang.
@@ -38,10 +149,14 @@ Fei Liu, Zhiyuan Zeng, and Rong Jiang.
   roads.
 \newblock {\em Plos One}, 12(11), 2017.
 
-\bibitem{shi_cao_zhang_li_xu_2016}
-Weisong Shi, Jie Cao, Quan Zhang, Youhuizi Li, and Lanyu Xu.
-\newblock Edge computing: Vision and challenges.
-\newblock {\em IEEE Internet of Things Journal}, 3(5):637–646, 2016.
+\bibitem{vehicle_scheme}
+{What is the Standard UK Vehicle Classification Scheme?}
+\newblock
+  \url{http://www.videodatapad.com/faq/standard-uk-vehicle-classification}.
+\newblock [online; accessed 30-April-2019].
+
+\bibitem{coba_manual}
+{\em The COBA manual}, volume~13 of {\em ECONOMIC ASSESSMENT OF ROAD SCHEMES}.
 
 \bibitem{yi_hao_qin_li_2015}
 Shanhe Yi, Zijiang Hao, Zhengrui Qin, and Qun Li.
@@ -61,26 +176,23 @@ Torbjorn~Grande Ostby.
   Subtraction and Convolutional Neural Networks}.
 \newblock PhD thesis, 2018.
 
-\bibitem{staff_2018}
-Science~X staff.
-\newblock Why are neuron axons long and spindly? study shows they're optimizing
-  signaling efficiency.
-\newblock
-  \url{https://medicalxpress.com/news/2018-07-neuron-axons-spindly-theyre-optimizing.html},
-  Jul 2018.
-
-\bibitem{britz_2016}
-Denny Britz.
-\newblock Understanding convolutional neural networks for {NLP}, Jan 2016.
-
-\bibitem{cs231n}
-Cs231n convolutional neural networks for visual recognition.
-\newblock \url{http://cs231n.github.io/convolutional-networks}.
+\bibitem{markidis_chien_laure_peng_vetter_2018}
+Stefano Markidis, Steven Wei~Der Chien, Erwin Laure, Ivy~Bo Peng, and
+  Jeffrey~S. Vetter.
+\newblock Nvidia tensor core programmability, performance \& precision.
+\newblock {\em 2018 IEEE International Parallel and Distributed Processing
+  Symposium Workshops (IPDPSW)}, 2018.
 
 \bibitem{rumelhart_hinton_williams_1986}
 David~E. Rumelhart, Geoffrey~E. Hinton, and Ronald~J. Williams.
 \newblock Learning representations by back-propagating errors.
 \newblock {\em Nature}, 323(6088):533–536, 1986.
+
+\bibitem{Ioffe2015BatchNA}
+Sergey Ioffe and Christian Szegedy.
+\newblock Batch normalization: Accelerating deep network training by reducing
+  internal covariate shift.
+\newblock {\em ICML}, 2015.
 
 \bibitem{he_zhang_ren_sun_2016}
 Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
@@ -101,21 +213,15 @@ Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollar.
 \newblock {\em 2017 IEEE International Conference on Computer Vision (ICCV)},
   2017.
 
-\bibitem{redmon_divvala_girshick_farhadi_2016}
-Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi.
-\newblock You only look once: Unified, real-time object detection.
-\newblock {\em 2016 IEEE Conference on Computer Vision and Pattern Recognition
-  (CVPR)}, 2016.
+\bibitem{precision_recall_curves}
+Precision-recall curves – what are they and how are they used?
+\newblock
+  \url{https://acutecaretesting.org/en/articles/precision-recall-curves-what-are-they-and-how-are-they-used}.
+\newblock [online; accesed 1-May-2019].
 
-\bibitem{redmon_farhadi_2017}
-Joseph Redmon and Ali Farhadi.
-\newblock Yolo9000: Better, faster, stronger.
-\newblock {\em 2017 IEEE Conference on Computer Vision and Pattern Recognition
-  (CVPR)}, 2017.
-
-\bibitem{Redmon2018YOLOv3AI}
-Joseph Redmon and Ali Farhadi.
-\newblock Yolov3: An incremental improvement.
-\newblock {\em CoRR}, abs/1804.02767, 2018.
+\bibitem{mouat_2017}
+Adrian Mouat.
+\newblock {\em Using Docker}.
+\newblock O'Reilly, 2015.
 
 \end{thebibliography}

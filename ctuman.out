@@ -1,6 +1,6 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.1.1}{Problem overview}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{Overview of technologies to measure traffic}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Overview of technologies for traffic measurement}{chapter.1}% 3
 \BOOKMARK [2][-]{subsection.1.2.1}{Manual counts}{section.1.2}% 4
 \BOOKMARK [2][-]{subsection.1.2.2}{Pneumatic tube detector}{section.1.2}% 5
 \BOOKMARK [2][-]{subsection.1.2.3}{Sensors for traffic data collection}{section.1.2}% 6
@@ -10,39 +10,42 @@
 \BOOKMARK [2][-]{subsection.1.3.2}{Edge computing}{section.1.3}% 10
 \BOOKMARK [2][-]{subsection.1.3.3}{Hardware}{section.1.3}% 11
 \BOOKMARK [0][-]{chapter.2}{Related works}{}% 12
-\BOOKMARK [0][-]{chapter.3}{Neural networks}{}% 13
-\BOOKMARK [1][-]{section.3.1}{Architecture}{chapter.3}% 14
-\BOOKMARK [2][-]{subsection.3.1.1}{Convolutional layer}{section.3.1}% 15
-\BOOKMARK [2][-]{subsection.3.1.2}{Non-linearity layer}{section.3.1}% 16
-\BOOKMARK [2][-]{subsection.3.1.3}{Pooling layer}{section.3.1}% 17
-\BOOKMARK [2][-]{subsection.3.1.4}{Fully connected layer}{section.3.1}% 18
-\BOOKMARK [1][-]{section.3.2}{Training of CNN}{chapter.3}% 19
-\BOOKMARK [2][-]{subsection.3.2.1}{Backpropagation}{section.3.2}% 20
-\BOOKMARK [2][-]{subsection.3.2.2}{Dropout}{section.3.2}% 21
-\BOOKMARK [2][-]{subsection.3.2.3}{Batch normalization}{section.3.2}% 22
-\BOOKMARK [0][-]{chapter.4}{Used networks}{}% 23
-\BOOKMARK [1][-]{section.4.1}{ResNet}{chapter.4}% 24
-\BOOKMARK [1][-]{section.4.2}{RetinaNet}{chapter.4}% 25
-\BOOKMARK [1][-]{section.4.3}{SqueezeDet}{chapter.4}% 26
-\BOOKMARK [1][-]{section.4.4}{YOLO}{chapter.4}% 27
-\BOOKMARK [2][-]{subsection.4.4.1}{YOLO v1}{section.4.4}% 28
-\BOOKMARK [2][-]{subsection.4.4.2}{YOLO v2}{section.4.4}% 29
-\BOOKMARK [2][-]{subsection.4.4.3}{YOLO v3}{section.4.4}% 30
-\BOOKMARK [0][-]{chapter.5}{Experiments}{}% 31
-\BOOKMARK [1][-]{section.5.1}{Datasets}{chapter.5}% 32
-\BOOKMARK [2][-]{subsection.5.1.1}{KITTI dataset}{section.5.1}% 33
-\BOOKMARK [2][-]{subsection.5.1.2}{GoodVision dataset}{section.5.1}% 34
-\BOOKMARK [1][-]{section.5.2}{Performance evaluation}{chapter.5}% 35
-\BOOKMARK [1][-]{section.5.3}{Inference time evaluation}{chapter.5}% 36
-\BOOKMARK [2][-]{subsection.5.3.1}{Mixed precision calculation}{section.5.3}% 37
-\BOOKMARK [0][-]{chapter.6}{Implementation}{}% 38
-\BOOKMARK [1][-]{section.6.1}{Prerequisites installation}{chapter.6}% 39
-\BOOKMARK [2][-]{subsection.6.1.1}{}{section.6.1}% 40
-\BOOKMARK [1][-]{section.6.2}{Docker}{chapter.6}% 41
-\BOOKMARK [1][-]{section.6.3}{YOLOv3 detector}{chapter.6}% 42
-\BOOKMARK [1][-]{section.6.4}{API}{chapter.6}% 43
-\BOOKMARK [0][-]{chapter.7}{Conclusions}{}% 44
-\BOOKMARK [0][-]{appendix.A}{Darknet-19}{}% 45
-\BOOKMARK [0][-]{appendix.B}{Darknet-53}{}% 46
-\BOOKMARK [0][-]{appendix.C}{Sample from videos used for evaluation}{}% 47
-\BOOKMARK [0][-]{appendix.D}{Bibliography}{}% 48
+\BOOKMARK [1][-]{section.2.1}{CNN on the edge}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.2}{Commercial traffic count systems}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.3}{Non-commercial traffic count systems}{chapter.2}% 15
+\BOOKMARK [0][-]{chapter.3}{Neural networks}{}% 16
+\BOOKMARK [1][-]{section.3.1}{Architecture}{chapter.3}% 17
+\BOOKMARK [2][-]{subsection.3.1.1}{Convolutional layer}{section.3.1}% 18
+\BOOKMARK [2][-]{subsection.3.1.2}{Non-linearity layer}{section.3.1}% 19
+\BOOKMARK [2][-]{subsection.3.1.3}{Pooling layer}{section.3.1}% 20
+\BOOKMARK [2][-]{subsection.3.1.4}{Fully connected layer}{section.3.1}% 21
+\BOOKMARK [1][-]{section.3.2}{Training of CNN}{chapter.3}% 22
+\BOOKMARK [2][-]{subsection.3.2.1}{Backpropagation}{section.3.2}% 23
+\BOOKMARK [2][-]{subsection.3.2.2}{Dropout}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.3}{Batch normalization}{section.3.2}% 25
+\BOOKMARK [0][-]{chapter.4}{Network architectures used in the thesis}{}% 26
+\BOOKMARK [1][-]{section.4.1}{ResNet}{chapter.4}% 27
+\BOOKMARK [1][-]{section.4.2}{RetinaNet}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.3}{SqueezeDet}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.4}{YOLO}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.4.1}{YOLO v1}{section.4.4}% 31
+\BOOKMARK [2][-]{subsection.4.4.2}{YOLO v2}{section.4.4}% 32
+\BOOKMARK [2][-]{subsection.4.4.3}{YOLO v3}{section.4.4}% 33
+\BOOKMARK [0][-]{chapter.5}{Experiments}{}% 34
+\BOOKMARK [1][-]{section.5.1}{Datasets}{chapter.5}% 35
+\BOOKMARK [2][-]{subsection.5.1.1}{KITTI dataset}{section.5.1}% 36
+\BOOKMARK [2][-]{subsection.5.1.2}{``GV-2018''}{section.5.1}% 37
+\BOOKMARK [1][-]{section.5.2}{Performance evaluation}{chapter.5}% 38
+\BOOKMARK [1][-]{section.5.3}{Inference time evaluation}{chapter.5}% 39
+\BOOKMARK [2][-]{subsection.5.3.1}{Mixed precision calculation}{section.5.3}% 40
+\BOOKMARK [0][-]{chapter.6}{Implementation}{}% 41
+\BOOKMARK [1][-]{section.6.1}{Docker}{chapter.6}% 42
+\BOOKMARK [1][-]{section.6.2}{Prerequisites installation}{chapter.6}% 43
+\BOOKMARK [1][-]{section.6.3}{YOLOv3 detector}{chapter.6}% 44
+\BOOKMARK [1][-]{section.6.4}{API}{chapter.6}% 45
+\BOOKMARK [0][-]{chapter.7}{Conclusions}{}% 46
+\BOOKMARK [1][-]{section.7.1}{Feature work}{chapter.7}% 47
+\BOOKMARK [0][-]{appendix.A}{Darknet-19}{}% 48
+\BOOKMARK [0][-]{appendix.B}{Darknet-53}{}% 49
+\BOOKMARK [0][-]{appendix.C}{Sample from videos used for evaluation}{}% 50
+\BOOKMARK [0][-]{appendix.D}{Bibliography}{}% 51

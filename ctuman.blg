@@ -3,46 +3,50 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: ctuman.aux
 The style file: unsrt.bst
 Database file #1: ctutest.bib
+Warning--I didn't find a database entry for "nvidia_developer_blog_2019"
+Warning--empty author and editor in coba_manual
+Warning--empty publisher in coba_manual
+Warning--empty year in coba_manual
 Warning--empty school in ostby_2018
-You've used 21 entries,
+You've used 37 entries,
             1791 wiz_defined-function locations,
-            546 strings with 6994 characters,
-and the built_in function-call counts, 3451 in all, are:
-= -- 262
-> -- 190
-< -- 0
-+ -- 73
-- -- 52
-* -- 195
-:= -- 577
-add.period$ -- 57
-call.type$ -- 21
-change.case$ -- 20
+            622 strings with 10087 characters,
+and the built_in function-call counts, 5827 in all, are:
+= -- 461
+> -- 286
+< -- 1
++ -- 114
+- -- 77
+* -- 299
+:= -- 923
+add.period$ -- 110
+call.type$ -- 37
+change.case$ -- 34
 chr.to.int$ -- 0
-cite$ -- 22
-duplicate$ -- 150
-empty$ -- 361
-format.name$ -- 52
-if$ -- 758
+cite$ -- 41
+duplicate$ -- 258
+empty$ -- 644
+format.name$ -- 77
+if$ -- 1313
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 13
-newline$ -- 102
-num.names$ -- 16
-pop$ -- 74
+int.to.str$ -- 37
+missing$ -- 21
+newline$ -- 187
+num.names$ -- 23
+pop$ -- 176
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 80
+skip$ -- 113
 stack$ -- 0
-substring$ -- 87
-swap$ -- 21
-text.length$ -- 0
+substring$ -- 114
+swap$ -- 39
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 20
-width$ -- 23
-write$ -- 202
-(There was 1 warning)
+warning$ -- 4
+while$ -- 28
+width$ -- 39
+write$ -- 369
+(There were 5 warnings)

@@ -1,0 +1,98 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Jetson Xavier Object Detector API",
+    "contact": {
+      "email": "zelenmyk@fel.cvut.cz"
+    }
+  },
+  "paths": {
+    "/detector": {
+      "get": {
+        "description": "Return detector status.",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Detector status."
+          }
+        }
+      },
+      "post": {
+        "consumes": [
+          "multipart/form-data"
+        ],
+        "parameters": [
+          {
+            "name": "StreamURL",
+            "in": "formData",
+            "type": "string",
+            "description": "URL of RTSP stream"
+          },
+          {
+            "name": "ConfigurationFile",
+            "in": "formData",
+            "type": "file",
+            "description": "Configuration file in JSON format"
+          }
+        ],
+        "description": "Starts detector.",
+        "responses": {
+          "200": {
+            "description": "Detector succesfully started."
+          },
+          "400": {
+            "description": "Detector already running."
+          }
+        }
+      },
+      "delete": {
+        "description": "Stops running detector.",
+        "responses": {
+          "200": {
+            "description": "Detector stopped."
+          },
+          "400": {
+            "description": "Detector not running."
+          }
+        }
+      }
+    },
+    "/detector/single_prediction": {
+      "get": {
+        "description": "Return latest image with predictions from detector",
+        "produces": [
+          "image/png",
+          "image/jpg"
+        ],
+        "responses": {
+          "200": {
+            "description": "Image returned."
+          },
+          "400": {
+            "description": "Detector not running."
+          }
+        }
+      }
+    },
+    "/detector/predictions": {
+      "get": {
+        "description": "Stream latest image with predictions from detector with 1FPS rate",
+        "produces": [
+          "image/png",
+          "image/jpg"
+        ],
+        "responses": {
+          "200": {
+            "description": "Stream started."
+          },
+          "400": {
+            "description": "Detector not running."
+          }
+        }
+      }
+    }
+  }
+}
